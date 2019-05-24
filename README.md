@@ -68,7 +68,7 @@ Suricata IDS:
 Simulador IEC104_Client:
 
 1. Acceso al interior del contenedor iec104_client
-> Acceso vía "docker exec -it iec104_client bash"
+> Acceso vía "docker exec -it iec104_client_es1 bash"
 2. Acceso al path j60870-1.2.1 para ejecutar el cliente
 > Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
 3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
@@ -86,6 +86,7 @@ Simulador IEC104_Client:
 Simulador IEC104_Server
 
 - El servidor está activo escuchando en el puerto 2404.
+
 
 **Funcionamiento Escenario 2. Uso inicial:**
 ------------
@@ -109,27 +110,55 @@ Suricata IDS:
 - Funcionamiento en modo host, escuchando en la interfaz docker creada para la red privada donde se alojan todos los contenedores "br-xxxxxxxxx"
 - Acceso vía "docker exec -it suricata_es2 bash"
 
-Simulador modbus_master:
-
-1. Acceso al interior del contenedor iec104_client
-> Acceso vía "docker exec -it iec104_client bash"
-2. Acceso al path j60870-1.2.1 para ejecutar el cliente
-> Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
-3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
-> ./j60870-console-client -h 192.168.1.140 -p 2404
-4. Conexion establecida entre client-servidor
-- Opciones diponibles:
-> 1. interrogation C_IC_NA_1 \
-> 2. synchronize clocks C_CS_NA_1 \
-> 3. counter interrogation C_CI_NA_1 \
-> 4. reset process command C_RP_NA_1 \
-> 5. read command C_RD_NA_1 \
-> 6. set value P_ME_NA_1 \
-> 7. set value P_ME_NB_1
-
 Simulador modbus_slave
 
-- El servidor está activo escuchando en el puerto 2404.
+1. Acceso al interior del contenedor modbus_slave_es2
+> Acceso vía "docker exec -it modbus_slave_es2 bash"
+2. Acceso al path modbus_simulator para ejecutar el cliente
+> Acceder al path "/home/admin/modbus_simulator"
+3. Ejecutar ./mbtcp_slv PORT
+> ./mbtcp_slv 504
+4. Introducir nuevo identificador
+> Enter Unit ID : 01
+5. Seleccionar el tipo de nodo:
+> 1   Coil Status \
+> 2   Input Status \
+> 3   Holding Registers \
+> 4   Input Registers \
+6. Fijar la direccion de inicio
+> Set Start addr (start from 0): 
+7. Fijar la longitud de datos
+> Set Data Length: 20
+8. Se queda a la escucha para realizar la conexion desde modbus_master_es2
+
+Simulador modbus_master:
+
+1. Acceso al interior del contenedor modbus_master_es2
+> Acceso vía "docker exec -it modbus_master_es2 bash"
+2. Acceso al path modbus_simulator para ejecutar el cliente
+> Acceder al path "/home/admin/modbus_simulator"
+3. Ejecutar ./mbtcp_mstr IP_SLAVE PORT
+> ./mbtcp_mstr 192.168.1.80 504
+4. Introducir identificador
+> Enter Unit ID :
+5. Seleccionar el tipo de funcion a realizar
+> Function code : \
+> 1		Read Coil Status \
+> 2		Read Input Status \
+> 3		Read Holding Register \
+> 4		Read Input Register \
+> 5		Force Single Coil \
+> 6		Preset Single Register \
+> 15	Force multi-Coil \
+> 16	Preset multi-Register \
+6. Fijar la direccion de inicio
+> Set Start addr (start from 0): 
+7. Fijar la longitud de datos
+> Set Data Length: 20
+8. Fijar el delay entre mensajes (segundos)
+> Setup delay between each command (seconds): 
+9. Conexion establecida entre modbus_master_es2 y modbus_slave_es2
+
 
 **Listado de imagenes Docker**
 ------------
