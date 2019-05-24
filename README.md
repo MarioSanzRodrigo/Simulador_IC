@@ -59,6 +59,10 @@ Escenario 4 [Escenario Personalizable]
 4. Introducir contraseña root en la terminal
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario1.png)
+ 
+** Visual del escenario 1 a traves del gestor de contenedores **
+
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario1.png)
 
 Interfaces Web de los elementos SIEM:
 
@@ -106,6 +110,10 @@ Simulador IEC104_Server
 4. Introducir contraseña root en la terminal
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario2.png)
+ 
+** Visual del escenario 2 a traves del gestor de contenedores **
+
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario2.png)
 
 Interfaces Web de los elementos SIEM:
 
