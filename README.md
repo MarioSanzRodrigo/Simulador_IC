@@ -22,7 +22,7 @@ También se estudiará la opción de dotar de capacidad de respuesta a la plataf
 De forma complementaria al estudio de los elementos mencionados anteriormente, se realizará el desarrollo de un laboratorio / simulador, que permita generar diferentes escenarios para validar el correcto funcionamiento de todo el sistema y obtener conclusiones. Estos escenarios estarán compuestos por microservicios virtualizados, principalmente en contenedores Docker, salvo los casos en los que sea estrictamente necesario el uso de Windows, para el cual se utilizarán máquinas virtuales.
 
 <p align="center">
-<img src="https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/simulador.png" width="80%">
+<img src="https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/simulador.png" width="50%">
 </p>
 
 ## Requisitos
