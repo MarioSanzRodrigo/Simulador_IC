@@ -82,7 +82,7 @@ Simulador IEC104_Client:
 > 4. reset process command C_RP_NA_1 \
 > 5. read command C_RD_NA_1 \
 > 6. set value P_ME_NA_1 \
-> 7. set value P_ME_NB_1 \
+> 7. set value P_ME_NB_1 
 
 Simulador IEC104_Server
 
@@ -125,7 +125,7 @@ Simulador modbus_slave
 > 1   Coil Status \
 > 2   Input Status \
 > 3   Holding Registers \
-> 4   Input Registers \
+> 4   Input Registers 
 6. Fijar la direccion de inicio
 > Set Start addr (start from 0): 
 7. Fijar la longitud de datos
