@@ -22,47 +22,17 @@ Simulador de protocolos industriales basado en Docker para el análisis mediante
 ## Escenarios
 
 - [Escenario 1 [IEC-60870-5-104]](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Escenario-1.-Protocolo-IEC-60870-5-104). 
-
-**Elementos del Escenario 1 [IEC 104]:**
-
-- IDS Suricata  [Docker]
-- ElasticSearch [Docker]
-- Logstash      [Docker]
-- Kibana        [Docker]
-- Nginx Server  [Docker]
-- Kali Linux    [Docker]
-- IEC104 Client [Docker]
-- IEC104 Server [Docker]
+- [Lista de elementos del escenario](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Elementos-escenario-1)
 
 - [Escenario 2 [Modbus]](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Escenario-2.-Protocolo-Modbus)
 
-**Elementos del Escenario 2 [ModBus]:**
-
-- IDS Suricata  [Docker]
-- ElasticSearch [Docker]
-- Logstash      [Docker]
-- Kibana        [Docker]
-- Kali Linux    [Docker]
-- Nginx Server  [Docker]
-- ModBus Master [Docker]
-- ModBus Slave  [Docker]
+- [Lista de elementos del escenario](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Elementos-escenario-2)
 
 - [Escenario 3 [DNP3]](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Escenario-3.-Protocolo-DNP3)
 
-**Elementos del Escenario 3 [DNP3]:**
-
-- IDS Suricata  [Docker]
-- ElasticSearch [Docker]
-- Logstash      [Docker]
-- Kibana        [Docker]
-- Kali Linux    [Docker]
-- Nginx Server  [Docker]
-- DNP3 Client   [VirtualBox]
-- DNP3 Server   [VirtualBox]
+- [Lista de elementos del escenario](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Elementos-escenario-3)
 
 - [Escenario 4 [Personalizable]]
-
-**Escenario 4 [Escenario Personalizable]**
 
 
 ## Autor
