@@ -189,6 +189,9 @@ Simulador modbus_master:
 
 ## Autor
 
+Este proyecto ha sido desarrollado por [Mario Sanz Rodrigo](https://www.linkedin.com/in/mario-sanz-rodrigo-8757a2a0/) como resultado del Trabajo de Fin de Master de Ciberseguridad en la Universidad Politécnica de Madrid.
+
+
 ## Referencias
 
 - iec104_client  https://cloud.docker.com/u/msanz741/repository/docker/msanz741/iec104_client
