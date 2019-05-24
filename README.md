@@ -1,9 +1,10 @@
-# Simulador_IC
-Simulador de protocolos industriales (IEC104, ModBus, DNP3)
 
-Requisitos:
-- Python3 
+**Requisitos:
+------------
+- > Python3 
 - > sudo apt-get install python3-pil python3-pil.imagetk
+
+# Simulador_IC
 
 Simulador de protocolos industriales basado en Docker para el análisis mediante sistemas IDS (Intrusion Detection System) y SIEM (Security Information and Event Management).
 
