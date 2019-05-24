@@ -73,11 +73,11 @@ Simulador IEC104_Client:
 4. Conexion establecida entre client-servidor
 - Opciones diponibles:
 > interrogation C_IC_NA_1 \
-> synchronize clocks C_CS_NA_1
-> counter interrogation C_CI_NA_1
-> reset process command C_RP_NA_1
-> read command C_RD_NA_1
-> set value P_ME_NA_1
+> synchronize clocks C_CS_NA_1 \
+> counter interrogation C_CI_NA_1 \
+> reset process command C_RP_NA_1 \
+> read command C_RD_NA_1 \
+> set value P_ME_NA_1 \
 > set value P_ME_NB_1
 
 Simulador IEC104_Server
