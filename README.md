@@ -52,6 +52,7 @@ Escenario 4 [Escenario Personalizable]
 > python3 interfaz_ELK.py
 3. Inicializar el escenario selecionado
 > Iniciar Escenario 1
+4. Introducir contraseña root en la terminal
 
 Interfaces Web de los elementos SIEM:
 
@@ -95,6 +96,7 @@ Simulador IEC104_Server
 > python3 interfaz_ELK.py
 3. Inicializar el escenario selecionado
 > Iniciar Escenario 2
+4. Introducir contraseña root en la terminal
 
 Interfaces Web de los elementos SIEM:
 
