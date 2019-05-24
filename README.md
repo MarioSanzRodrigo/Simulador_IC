@@ -72,9 +72,9 @@ Simulador IEC104_Client:
 > ./j60870-console-client -h 192.168.1.140 -p 2404
 4. Conexion establecida entre client-servidor
 - Opciones diponibles:
-> 1 interrogation C_IC_NA_1
-> 2 synchronize clocks C_CS_NA_1
-> 3 counter interrogation C_CI_NA_1
+> -1 interrogation C_IC_NA_1
+> -2 synchronize clocks C_CS_NA_1
+> -3 counter interrogation C_CI_NA_1
 > 4 reset process command C_RP_NA_1
 > 5 read command C_RD_NA_1
 > 6 set value P_ME_NA_1
