@@ -53,9 +53,9 @@ Uso inicial:
 
 Interfaces Web de los elementos SIEM:
 
-Interfaz Http Kibana http://localhost:5601 o http://192.168.1.130:5601
-Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.110:9200
-Interfaz Http Kibana via Nginx http://localhost:8080
+-Interfaz Http Kibana http://localhost:5601 o http://192.168.1.130:5601
+-Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.110:9200
+-Interfaz Http Kibana via Nginx http://localhost:8080
 
 Suricata IDS:
 
@@ -64,11 +64,13 @@ Suricata IDS:
 
 Simulador IEC104_Client:
 
+1. Acceso al interior del contenedor iec104_client
 - Acceso vía "docker exec -it iec104_client bash"
+2. Acceso al path j60870-1.2.1 para ejecutar el cliente
 - Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
-- Ejecutar ./j60870-console-client -h IP_SERVER -p PORT
+3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
 - ./j60870-console-client -h 192.168.1.140 -p 2404
-- Conexion establecida entre client-servidor
+4. Conexion establecida entre client-servidor
 - Opciones diponibles:
  1 interrogation C_IC_NA_1
  2 synchronize clocks C_CS_NA_1
