@@ -65,20 +65,20 @@ Suricata IDS:
 Simulador IEC104_Client:
 
 1. Acceso al interior del contenedor iec104_client
-- Acceso vía "docker exec -it iec104_client bash"
+> Acceso vía "docker exec -it iec104_client bash"
 2. Acceso al path j60870-1.2.1 para ejecutar el cliente
-- Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
+> Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
 3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
-- ./j60870-console-client -h 192.168.1.140 -p 2404
+> ./j60870-console-client -h 192.168.1.140 -p 2404
 4. Conexion establecida entre client-servidor
 - Opciones diponibles:
- 1 interrogation C_IC_NA_1
- 2 synchronize clocks C_CS_NA_1
- 3 counter interrogation C_CI_NA_1
- 4 reset process command C_RP_NA_1
- 5 read command C_RD_NA_1
- 6 set value P_ME_NA_1
- 7 set value P_ME_NB_1
+> 1 interrogation C_IC_NA_1
+> 2 synchronize clocks C_CS_NA_1
+> 3 counter interrogation C_CI_NA_1
+> 4 reset process command C_RP_NA_1
+> 5 read command C_RD_NA_1
+> 6 set value P_ME_NA_1
+> 7 set value P_ME_NB_1
 
 Simulador IEC104_Server
 
