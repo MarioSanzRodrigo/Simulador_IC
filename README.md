@@ -9,8 +9,6 @@
 
 ## Resumen
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/simulador.png)
-
 Este desarrollo viene motivado por la importancia de dotar de seguridad a las infraestructuras críticas de un país, muchas de ellas basadas en sistemas **SCADA (Supervisory Control and Data Acquisition)**, los cuales no se desarrollaron originalmente bajo la perspectiva de la ciberseguridad.
 
 Por ello en este TFM se propone primeramente un análisis exhaustivo, desde la perspectiva de la ciberseguridad, de los protocolos industriales más comunes en este tipo de escenarios, los cuales engloban los protocolos definidos por la normal internacional **IEC 60870-5** en sus variantes 101 y 104, **DNP3 Protocol** (Distributed Network Protocol), **ModBus** y LoRa y LoRaWan.
@@ -22,6 +20,8 @@ Finalmente se propone la utilización de herramientas **SIEM (Security Informati
 También se estudiará la opción de dotar de capacidad de respuesta a la plataforma, con el fin de poder aplicar acciones sencillas ante ataques o patrones anómalos detectados.
 
 De forma complementaria al estudio de los elementos mencionados anteriormente, se realizará el desarrollo de un laboratorio / simulador, que permita generar diferentes escenarios para validar el correcto funcionamiento de todo el sistema y obtener conclusiones. Estos escenarios estarán compuestos por microservicios virtualizados, principalmente en contenedores Docker, salvo los casos en los que sea estrictamente necesario el uso de Windows, para el cual se utilizarán máquinas virtuales.
+
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/simulador.png)
 
 
 ## Requisitos
