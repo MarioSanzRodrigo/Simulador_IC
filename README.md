@@ -98,9 +98,9 @@ Simulador IEC104_Server
 
 Interfaces Web de los elementos SIEM:
 
--Interfaz Http Kibana http://localhost:5601 o http://192.168.1.30:5601
--Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.10:9200
--Interfaz Http Kibana via Nginx http://localhost:8080
+- Interfaz Http Kibana http://localhost:5601 o http://192.168.1.30:5601
+- Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.10:9200
+- Interfaz Http Kibana via Nginx http://localhost:8080
 
 Suricata IDS:
 
