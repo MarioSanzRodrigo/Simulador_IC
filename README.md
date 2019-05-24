@@ -58,6 +58,8 @@ Escenario 4 [Escenario Personalizable]
 > Iniciar Escenario 1
 4. Introducir contraseña root en la terminal
 
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario1.png)
+
 Interfaces Web de los elementos SIEM:
 
 - Interfaz Http Kibana http://localhost:5601 o http://192.168.1.130:5601 \
@@ -102,6 +104,8 @@ Simulador IEC104_Server
 3. Inicializar el escenario selecionado
 > Iniciar Escenario 2
 4. Introducir contraseña root en la terminal
+
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario2.png)
 
 Interfaces Web de los elementos SIEM:
 
