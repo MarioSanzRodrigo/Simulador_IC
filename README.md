@@ -42,7 +42,9 @@ Escenario 3 [DNP3]:
 
 Escenario 4 [Escenario Personalizable]
 
+
 **Funcionamiento Escenario 1. Uso inicial:**
+------------
 
 1. Acceder a la carpeta Interfaz_Control
 > cd /Simulador_IC/Herramienta/Interfaz_Control/
