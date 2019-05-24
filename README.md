@@ -5,8 +5,9 @@
 - > sudo apt-get install python3-pil python3-pil.imagetk
 
 # Simulador_IC
+------------
 
-
+ ![alt text] (https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/simulador.png)
 
 Simulador de protocolos industriales basado en Docker para el análisis mediante sistemas IDS (Intrusion Detection System) y SIEM (Security Information and Event Management).
 
