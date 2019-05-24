@@ -42,6 +42,46 @@ Escenario 3 [DNP3]:
 
 Escenario 4 [Escenario Personalizable]
 
+Uso inicial:
+
+1. Acceder a la carpeta Interfaz_Control
+> cd /Simulador_IC/Herramienta/Interfaz_Control/
+2. Lanzar con python3 el fichero .py
+> python3 interfaz_ELK.py
+3. Inicializar el escenario selecionado
+> Iniciar Escenario 1/2/3/4
+
+Interfaces Web de los elementos SIEM:
+
+Interfaz Http Kibana http://localhost:5601 o http://192.168.1.130:5601
+Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.110:9200
+Interfaz Http Kibana via Nginx http://localhost:8080
+
+Suricata IDS:
+
+- Funcionamiento en modo host, escuchando en la interfaz docker creada para la red privada donde se alojan todos los contenedores "br-xxxxxxxxx"
+- Acceso vía "docker exec -it suricata_es1 bash"
+
+Simulador IEC104_Client:
+
+- Acceso vía "docker exec -it iec104_client bash"
+- Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
+- Ejecutar ./j60870-console-client -h IP_SERVER -p PORT
+- ./j60870-console-client -h 192.168.1.140 -p 2404
+- Conexion establecida entre client-servidor
+- Opciones diponibles:
+ 1 interrogation C_IC_NA_1
+ 2 synchronize clocks C_CS_NA_1
+ 3 counter interrogation C_CI_NA_1
+ 4 reset process command C_RP_NA_1
+ 5 read command C_RD_NA_1
+ 6 set value P_ME_NA_1
+ 7 set value P_ME_NB_1
+
+Simulador IEC104_Server
+
+- El servidor está activo escuchando en el puerto 2404.
+
 Listado de imagenes Docker
 
 - iec104_client  https://cloud.docker.com/u/msanz741/repository/docker/msanz741/iec104_client
