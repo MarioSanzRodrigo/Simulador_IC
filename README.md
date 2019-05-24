@@ -32,7 +32,7 @@ Simulador de protocolos industriales basado en Docker para el análisis mediante
 
 - [Lista de elementos del escenario](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Elementos-escenario-3)
 
-- [Escenario 4 [Personalizable]]
+- [Escenario 4 [Personalizable]](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Escenario-4.-Personalizable)
 
 
 ## Autor
