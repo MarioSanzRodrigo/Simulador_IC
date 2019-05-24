@@ -73,14 +73,15 @@ Interfaces Web de los elementos SIEM:
 Suricata IDS:
 
 - Funcionamiento en modo host, escuchando en la interfaz docker creada para la red privada donde se alojan todos los contenedores "br-xxxxxxxxx"
-- Acceso vía "docker exec -it suricata_es1 bash"
+- Acceso al interior del contenedor suricata_es1
+> docker exec -it suricata_es1 bash
 
 Simulador IEC104_Client:
 
 1. Acceso al interior del contenedor iec104_client
-> Acceso vía "docker exec -it iec104_client_es1 bash"
+> docker exec -it iec104_client_es1 bash
 2. Acceso al path j60870-1.2.1 para ejecutar el cliente
-> Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
+> cd /home/admin/j60870-1.2.1/run-scripts
 3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
 > ./j60870-console-client -h 192.168.1.140 -p 2404
 4. Conexion establecida entre client-servidor
@@ -102,7 +103,7 @@ Simulador IEC104_Server
 ------------
 
 1. Acceder a la carpeta Interfaz_Control
-> cd /Simulador_IC/Herramienta/Interfaz_Control/
+> cd /Simulador_IC/Herramienta/Interfaz_Control
 2. Lanzar con python3 el fichero .py
 > python3 interfaz_ELK.py
 3. Inicializar el escenario selecionado
@@ -124,14 +125,15 @@ Interfaces Web de los elementos SIEM:
 Suricata IDS:
 
 - Funcionamiento en modo host, escuchando en la interfaz docker creada para la red privada donde se alojan todos los contenedores "br-xxxxxxxxx"
-- Acceso vía "docker exec -it suricata_es2 bash"
+- Acceso al interior del contenedor suricata_es2
+> docker exec -it suricata_es2 bash
 
 Simulador modbus_slave
 
 1. Acceso al interior del contenedor modbus_slave_es2
-> Acceso vía "docker exec -it modbus_slave_es2 bash"
+> docker exec -it modbus_slave_es2 bash
 2. Acceso al path modbus_simulator para ejecutar el cliente
-> Acceder al path "/home/admin/modbus_simulator"
+> cd /home/admin/modbus_simulator
 3. Ejecutar ./mbtcp_slv PORT
 > ./mbtcp_slv 504
 4. Introducir nuevo identificador
@@ -150,9 +152,9 @@ Simulador modbus_slave
 Simulador modbus_master:
 
 1. Acceso al interior del contenedor modbus_master_es2
-> Acceso vía "docker exec -it modbus_master_es2 bash"
+> docker exec -it modbus_master_es2 bash
 2. Acceso al path modbus_simulator para ejecutar el cliente
-> Acceder al path "/home/admin/modbus_simulator"
+> cd /home/admin/modbus_simulator
 3. Ejecutar ./mbtcp_mstr IP_SLAVE PORT
 > ./mbtcp_mstr 192.168.1.80 504
 4. Introducir identificador
