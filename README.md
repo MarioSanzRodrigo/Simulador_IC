@@ -51,7 +51,7 @@ Escenario 4 [Escenario Personalizable]
 2. Lanzar con python3 el fichero .py
 > python3 interfaz_ELK.py
 3. Inicializar el escenario selecionado
-> Iniciar Escenario 1/2/3/4
+> Iniciar Escenario 1
 
 Interfaces Web de los elementos SIEM:
 
@@ -86,7 +86,51 @@ Simulador IEC104_Server
 
 - El servidor está activo escuchando en el puerto 2404.
 
-Listado de imagenes Docker
+**Funcionamiento Escenario 2. Uso inicial:**
+------------
+
+1. Acceder a la carpeta Interfaz_Control
+> cd /Simulador_IC/Herramienta/Interfaz_Control/
+2. Lanzar con python3 el fichero .py
+> python3 interfaz_ELK.py
+3. Inicializar el escenario selecionado
+> Iniciar Escenario 2
+
+Interfaces Web de los elementos SIEM:
+
+-Interfaz Http Kibana http://localhost:5601 o http://192.168.1.30:5601
+-Interfaz Http ElasticSearch http://localhost:9200 o http://192.168.1.10:9200
+-Interfaz Http Kibana via Nginx http://localhost:8080
+
+Suricata IDS:
+
+- Funcionamiento en modo host, escuchando en la interfaz docker creada para la red privada donde se alojan todos los contenedores "br-xxxxxxxxx"
+- Acceso vía "docker exec -it suricata_es2 bash"
+
+Simulador modbus_master:
+
+1. Acceso al interior del contenedor iec104_client
+> Acceso vía "docker exec -it iec104_client bash"
+2. Acceso al path j60870-1.2.1 para ejecutar el cliente
+> Acceder al path "/home/admin/j60870-1.2.1/run-scripts"
+3. Ejecutar ./j60870-console-client -h IP_SERVER -p PORT para realizar la conexion con iec104_server
+> ./j60870-console-client -h 192.168.1.140 -p 2404
+4. Conexion establecida entre client-servidor
+- Opciones diponibles:
+> 1. interrogation C_IC_NA_1 \
+> 2. synchronize clocks C_CS_NA_1 \
+> 3. counter interrogation C_CI_NA_1 \
+> 4. reset process command C_RP_NA_1 \
+> 5. read command C_RD_NA_1 \
+> 6. set value P_ME_NA_1 \
+> 7. set value P_ME_NB_1
+
+Simulador modbus_slave
+
+- El servidor está activo escuchando en el puerto 2404.
+
+**Listado de imagenes Docker**
+------------
 
 - iec104_client  https://cloud.docker.com/u/msanz741/repository/docker/msanz741/iec104_client
 - iec104_server  https://cloud.docker.com/u/msanz741/repository/docker/msanz741/iec104_server
