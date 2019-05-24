@@ -7,7 +7,7 @@
 # Simulador_IC
 ------------
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/simulador.png)
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/simulador.png)
 
 Simulador de protocolos industriales basado en Docker para el análisis mediante sistemas IDS (Intrusion Detection System) y SIEM (Security Information and Event Management).
 
@@ -58,11 +58,11 @@ Escenario 4 [Escenario Personalizable]
 > Iniciar Escenario 1
 4. Introducir contraseña root en la terminal
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario1.png)
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/Escenario1.png)
  
 **Visual del escenario 1 a traves del gestor de contenedores**
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario1.png)
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/portainer_escenario1.png)
 
 Interfaces Web de los elementos SIEM:
 
@@ -110,11 +110,11 @@ Simulador IEC104_Server
 > Iniciar Escenario 2
 4. Introducir contraseña root en la terminal
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario2.png)
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/Escenario2.png)
  
 **Visual del escenario 2 a traves del gestor de contenedores**
 
- ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario2.png)
+ ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Capturas/portainer_escenario2.png)
 
 Interfaces Web de los elementos SIEM:
 
