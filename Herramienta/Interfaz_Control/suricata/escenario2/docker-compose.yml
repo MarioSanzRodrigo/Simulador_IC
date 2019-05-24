@@ -1,0 +1,18 @@
+
+version: '3.6'
+services:
+  suricata:
+    image: "msanz741/suricata_mario"
+    container_name: suricata_es2
+    privileged: true
+    command: -i br-8386ec88fcdd
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+      - NET_RAW
+    network_mode: "host"
+    volumes:
+      - ../../escenarios/escenario2/logstash/pipeline:/var/log/suricata
+      - ../../../../suricata_config:/etc/suricata
+
+

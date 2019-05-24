@@ -1,0 +1,19 @@
+#sudo sysctl -w vm.max_map_count=262144
+
+version: '3.6'
+services:
+  suricata:
+    image: msanz741/suricata_mario
+    container_name: suricata
+    privileged: true
+    command: -i br-da2a4f710065
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+      - NET_RAW
+    network_mode: "host"
+    volumes:
+      - ../../suricata_logs:/var/log/suricata
+      - ../../suricata_config:/etc/suricata
+
+

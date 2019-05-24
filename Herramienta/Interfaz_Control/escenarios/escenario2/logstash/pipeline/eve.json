@@ -1,0 +1,17 @@
+{"timestamp":"2019-05-17T14:38:51.000138+0000","event_type":"stats","stats":{"uptime":8}}
+{"timestamp":"2019-05-17T14:38:58.000107+0000","event_type":"stats","stats":{"uptime":15}}
+{"timestamp":"2019-05-17T14:39:05.000100+0000","event_type":"stats","stats":{"uptime":22}}
+{"timestamp":"2019-05-17T14:39:12.000090+0000","event_type":"stats","stats":{"uptime":29}}
+{"timestamp":"2019-05-17T14:39:19.000091+0000","event_type":"stats","stats":{"uptime":36}}
+{"timestamp":"2019-05-17T14:39:26.000096+0000","event_type":"stats","stats":{"uptime":43}}
+{"timestamp":"2019-05-17T14:39:33.000092+0000","event_type":"stats","stats":{"uptime":50}}
+{"timestamp":"2019-05-17T14:39:38.610328+0000","in_iface":"br-d749e61ede1f","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.80","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T14:39:39.616239+0000","in_iface":"br-d749e61ede1f","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.80","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T14:39:40.000094+0000","event_type":"stats","stats":{"uptime":57}}
+{"timestamp":"2019-05-17T14:39:40.640228+0000","in_iface":"br-d749e61ede1f","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.80","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T14:39:41.664285+0000","in_iface":"br-d749e61ede1f","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.80","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T14:39:47.000109+0000","event_type":"stats","stats":{"uptime":64}}
+{"timestamp":"2019-05-17T14:39:54.000150+0000","event_type":"stats","stats":{"uptime":71}}
+{"timestamp":"2019-05-17T14:40:01.000091+0000","event_type":"stats","stats":{"uptime":78}}
+{"timestamp":"2019-05-17T14:40:08.000413+0000","event_type":"stats","stats":{"uptime":85}}
+{"timestamp":"2019-05-17T14:40:15.641112+0000","event_type":"stats","stats":{"uptime":92}}

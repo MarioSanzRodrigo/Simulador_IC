@@ -1,0 +1,19 @@
+version: '2.2'
+
+services:
+   ubuntu:
+      container_name: ubuntu
+      image: ubuntu:16.04
+      command: tail -F anything
+      networks:
+        - TFM_lab_network
+
+
+   kibana:
+      container_name: k
+      image: ubuntu:16.04
+      command: tail -F anything
+      networks:
+        - TFM_lab_network
+
+

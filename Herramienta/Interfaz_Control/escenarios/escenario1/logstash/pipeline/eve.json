@@ -1,0 +1,780 @@
+{"timestamp":"2019-05-17T12:46:00.907600+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:01.915323+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:02.939271+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:03.963285+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:05.000135+0000","event_type":"stats","stats":{"uptime":8}}
+{"timestamp":"2019-05-17T12:46:04.987238+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:06.011240+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:07.035244+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:08.059272+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:09.083584+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:10.107270+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:11.131287+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:12.000088+0000","event_type":"stats","stats":{"uptime":15}}
+{"timestamp":"2019-05-17T12:46:12.155256+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:13.179247+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:14.203272+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:15.227685+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:16.251275+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:17.275315+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:18.299270+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:19.000758+0000","event_type":"stats","stats":{"uptime":22}}
+{"timestamp":"2019-05-17T12:46:19.323243+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:20.347287+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:21.371294+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:22.395268+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:23.419272+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:24.443255+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:25.467259+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:26.000112+0000","event_type":"stats","stats":{"uptime":29}}
+{"timestamp":"2019-05-17T12:46:26.491291+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:27.519280+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:28.539333+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:29.563259+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:30.587240+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:31.615235+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:32.635263+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:33.000096+0000","event_type":"stats","stats":{"uptime":36}}
+{"timestamp":"2019-05-17T12:46:33.659274+0000","in_iface":"br-a222b584f620","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.110","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-05-17T12:46:40.000228+0000","event_type":"stats","stats":{"uptime":43}}
+{"timestamp":"2019-05-17T12:46:47.000739+0000","event_type":"stats","stats":{"uptime":50}}
+{"timestamp":"2019-05-17T12:46:54.000086+0000","event_type":"stats","stats":{"uptime":57}}
+{"timestamp":"2019-05-17T12:47:01.000395+0000","event_type":"stats","stats":{"uptime":64}}
+{"timestamp":"2019-05-17T12:47:08.000242+0000","event_type":"stats","stats":{"uptime":71}}
+{"timestamp":"2019-05-17T12:47:15.000204+0000","event_type":"stats","stats":{"uptime":78}}
+{"timestamp":"2019-05-17T12:47:22.000217+0000","event_type":"stats","stats":{"uptime":85}}
+{"timestamp":"2019-05-17T12:47:29.000227+0000","event_type":"stats","stats":{"uptime":92}}
+{"timestamp":"2019-05-17T12:47:36.000757+0000","event_type":"stats","stats":{"uptime":99}}
+{"timestamp":"2019-05-17T12:47:43.000687+0000","event_type":"stats","stats":{"uptime":106}}
+{"timestamp":"2019-05-17T12:47:50.000444+0000","event_type":"stats","stats":{"uptime":113}}
+{"timestamp":"2019-05-17T12:47:57.000741+0000","event_type":"stats","stats":{"uptime":120}}
+{"timestamp":"2019-05-17T12:48:04.000765+0000","event_type":"stats","stats":{"uptime":127}}
+{"timestamp":"2019-05-17T12:48:11.000759+0000","event_type":"stats","stats":{"uptime":134}}
+{"timestamp":"2019-05-17T12:48:18.000184+0000","event_type":"stats","stats":{"uptime":141}}
+{"timestamp":"2019-05-17T12:48:25.000790+0000","event_type":"stats","stats":{"uptime":148}}
+{"timestamp":"2019-05-17T12:48:33.000739+0000","event_type":"stats","stats":{"uptime":156}}
+{"timestamp":"2019-05-17T12:48:41.000713+0000","event_type":"stats","stats":{"uptime":164}}
+{"timestamp":"2019-05-17T12:48:49.000761+0000","event_type":"stats","stats":{"uptime":172}}
+{"timestamp":"2019-05-17T12:48:57.000750+0000","event_type":"stats","stats":{"uptime":180}}
+{"timestamp":"2019-05-17T13:43:51.756581+0000","event_type":"stats","stats":{"uptime":3474}}
+{"timestamp":"2019-05-17T13:43:59.000737+0000","event_type":"stats","stats":{"uptime":3482}}
+{"timestamp":"2019-05-17T13:44:07.000682+0000","event_type":"stats","stats":{"uptime":3490}}
+{"timestamp":"2019-05-17T13:44:15.000096+0000","event_type":"stats","stats":{"uptime":3498}}
+{"timestamp":"2019-05-17T13:44:22.000154+0000","event_type":"stats","stats":{"uptime":3505}}
+{"timestamp":"2019-05-17T13:44:29.000241+0000","event_type":"stats","stats":{"uptime":3512}}
+{"timestamp":"2019-05-17T13:44:36.000449+0000","event_type":"stats","stats":{"uptime":3519}}
+{"timestamp":"2019-05-17T13:44:43.000117+0000","event_type":"stats","stats":{"uptime":3526}}
+{"timestamp":"2019-05-17T13:44:50.000749+0000","event_type":"stats","stats":{"uptime":3533}}
+{"timestamp":"2019-05-17T13:44:58.000135+0000","event_type":"stats","stats":{"uptime":3541}}
+{"timestamp":"2019-05-17T13:45:05.000214+0000","event_type":"stats","stats":{"uptime":3548}}
+{"timestamp":"2019-05-17T13:45:12.000726+0000","event_type":"stats","stats":{"uptime":3555}}
+{"timestamp":"2019-05-17T13:45:19.000724+0000","event_type":"stats","stats":{"uptime":3562}}
+{"timestamp":"2019-05-17T13:45:26.000745+0000","event_type":"stats","stats":{"uptime":3569}}
+{"timestamp":"2019-05-17T13:45:33.000796+0000","event_type":"stats","stats":{"uptime":3576}}
+{"timestamp":"2019-05-17T13:45:40.000252+0000","event_type":"stats","stats":{"uptime":3583}}
+{"timestamp":"2019-05-17T13:45:47.000743+0000","event_type":"stats","stats":{"uptime":3590}}
+{"timestamp":"2019-05-17T13:45:54.000553+0000","event_type":"stats","stats":{"uptime":3597}}
+{"timestamp":"2019-05-17T13:46:01.000755+0000","event_type":"stats","stats":{"uptime":3604}}
+{"timestamp":"2019-05-17T13:46:08.000644+0000","event_type":"stats","stats":{"uptime":3611}}
+{"timestamp":"2019-05-17T13:46:15.000743+0000","event_type":"stats","stats":{"uptime":3618}}
+{"timestamp":"2019-05-17T13:46:22.000097+0000","event_type":"stats","stats":{"uptime":3625}}
+{"timestamp":"2019-05-17T13:46:29.000126+0000","event_type":"stats","stats":{"uptime":3632}}
+{"timestamp":"2019-05-17T13:46:36.000263+0000","event_type":"stats","stats":{"uptime":3639}}
+{"timestamp":"2019-05-17T13:46:43.000129+0000","event_type":"stats","stats":{"uptime":3646}}
+{"timestamp":"2019-05-17T13:46:50.000668+0000","event_type":"stats","stats":{"uptime":3653}}
+{"timestamp":"2019-05-17T13:46:57.000150+0000","event_type":"stats","stats":{"uptime":3660}}
+{"timestamp":"2019-05-17T13:47:04.000269+0000","event_type":"stats","stats":{"uptime":3667}}
+{"timestamp":"2019-05-17T13:47:11.000196+0000","event_type":"stats","stats":{"uptime":3674}}
+{"timestamp":"2019-05-17T13:47:18.000199+0000","event_type":"stats","stats":{"uptime":3681}}
+{"timestamp":"2019-05-17T13:47:25.000235+0000","event_type":"stats","stats":{"uptime":3688}}
+{"timestamp":"2019-05-17T13:47:32.000136+0000","event_type":"stats","stats":{"uptime":3695}}
+{"timestamp":"2019-05-17T13:47:39.000130+0000","event_type":"stats","stats":{"uptime":3702}}
+{"timestamp":"2019-05-17T13:47:46.000752+0000","event_type":"stats","stats":{"uptime":3709}}
+{"timestamp":"2019-05-17T13:47:53.000159+0000","event_type":"stats","stats":{"uptime":3716}}
+{"timestamp":"2019-05-17T13:48:00.000395+0000","event_type":"stats","stats":{"uptime":3723}}
+{"timestamp":"2019-05-17T13:48:07.000724+0000","event_type":"stats","stats":{"uptime":3730}}
+{"timestamp":"2019-05-17T13:48:14.000415+0000","event_type":"stats","stats":{"uptime":3737}}
+{"timestamp":"2019-05-17T13:48:21.000478+0000","event_type":"stats","stats":{"uptime":3744}}
+{"timestamp":"2019-05-17T13:48:28.000240+0000","event_type":"stats","stats":{"uptime":3751}}
+{"timestamp":"2019-05-17T13:48:35.000160+0000","event_type":"stats","stats":{"uptime":3758}}
+{"timestamp":"2019-05-17T13:48:42.000142+0000","event_type":"stats","stats":{"uptime":3765}}
+{"timestamp":"2019-05-17T13:48:49.000108+0000","event_type":"stats","stats":{"uptime":3772}}
+{"timestamp":"2019-05-17T13:48:56.000412+0000","event_type":"stats","stats":{"uptime":3779}}
+{"timestamp":"2019-05-17T13:49:03.000243+0000","event_type":"stats","stats":{"uptime":3786}}
+{"timestamp":"2019-05-17T13:49:10.000232+0000","event_type":"stats","stats":{"uptime":3793}}
+{"timestamp":"2019-05-17T13:49:17.000127+0000","event_type":"stats","stats":{"uptime":3800}}
+{"timestamp":"2019-05-17T13:49:24.000138+0000","event_type":"stats","stats":{"uptime":3807}}
+{"timestamp":"2019-05-17T13:49:31.000094+0000","event_type":"stats","stats":{"uptime":3814}}
+{"timestamp":"2019-05-17T13:49:38.000117+0000","event_type":"stats","stats":{"uptime":3821}}
+{"timestamp":"2019-05-17T13:49:45.000089+0000","event_type":"stats","stats":{"uptime":3828}}
+{"timestamp":"2019-05-17T13:49:52.000106+0000","event_type":"stats","stats":{"uptime":3835}}
+{"timestamp":"2019-05-17T13:49:59.000088+0000","event_type":"stats","stats":{"uptime":3842}}
+{"timestamp":"2019-05-17T13:50:06.000111+0000","event_type":"stats","stats":{"uptime":3849}}
+{"timestamp":"2019-05-17T13:50:13.000114+0000","event_type":"stats","stats":{"uptime":3856}}
+{"timestamp":"2019-05-17T13:50:20.000116+0000","event_type":"stats","stats":{"uptime":3863}}
+{"timestamp":"2019-05-17T13:50:27.000163+0000","event_type":"stats","stats":{"uptime":3870}}
+{"timestamp":"2019-05-17T13:50:34.000164+0000","event_type":"stats","stats":{"uptime":3877}}
+{"timestamp":"2019-05-17T13:50:41.000119+0000","event_type":"stats","stats":{"uptime":3884}}
+{"timestamp":"2019-05-17T13:50:48.000156+0000","event_type":"stats","stats":{"uptime":3891}}
+{"timestamp":"2019-05-17T13:50:56.000676+0000","event_type":"stats","stats":{"uptime":3899}}
+{"timestamp":"2019-05-17T13:51:04.000095+0000","event_type":"stats","stats":{"uptime":3907}}
+{"timestamp":"2019-05-17T13:51:11.000145+0000","event_type":"stats","stats":{"uptime":3914}}
+{"timestamp":"2019-05-17T13:51:18.000122+0000","event_type":"stats","stats":{"uptime":3921}}
+{"timestamp":"2019-05-17T13:51:25.000165+0000","event_type":"stats","stats":{"uptime":3928}}
+{"timestamp":"2019-05-17T13:51:32.000086+0000","event_type":"stats","stats":{"uptime":3935}}
+{"timestamp":"2019-05-17T13:51:39.000110+0000","event_type":"stats","stats":{"uptime":3942}}
+{"timestamp":"2019-05-17T13:51:46.000111+0000","event_type":"stats","stats":{"uptime":3949}}
+{"timestamp":"2019-05-17T13:51:53.000532+0000","event_type":"stats","stats":{"uptime":3956}}
+{"timestamp":"2019-05-17T13:52:00.000071+0000","event_type":"stats","stats":{"uptime":3963}}
+{"timestamp":"2019-05-17T13:52:07.000109+0000","event_type":"stats","stats":{"uptime":3970}}
+{"timestamp":"2019-05-17T13:52:14.000168+0000","event_type":"stats","stats":{"uptime":3977}}
+{"timestamp":"2019-05-17T13:52:21.000161+0000","event_type":"stats","stats":{"uptime":3984}}
+{"timestamp":"2019-05-17T13:52:28.000087+0000","event_type":"stats","stats":{"uptime":3991}}
+{"timestamp":"2019-05-17T13:52:35.000123+0000","event_type":"stats","stats":{"uptime":3998}}
+{"timestamp":"2019-05-17T13:52:42.000090+0000","event_type":"stats","stats":{"uptime":4005}}
+{"timestamp":"2019-05-17T13:52:49.000150+0000","event_type":"stats","stats":{"uptime":4012}}
+{"timestamp":"2019-05-17T13:52:56.000113+0000","event_type":"stats","stats":{"uptime":4019}}
+{"timestamp":"2019-05-17T13:53:03.000118+0000","event_type":"stats","stats":{"uptime":4026}}
+{"timestamp":"2019-05-17T13:53:10.000097+0000","event_type":"stats","stats":{"uptime":4033}}
+{"timestamp":"2019-05-17T13:53:17.000089+0000","event_type":"stats","stats":{"uptime":4040}}
+{"timestamp":"2019-05-17T13:53:24.000105+0000","event_type":"stats","stats":{"uptime":4047}}
+{"timestamp":"2019-05-17T13:53:31.000123+0000","event_type":"stats","stats":{"uptime":4054}}
+{"timestamp":"2019-05-17T13:53:38.000156+0000","event_type":"stats","stats":{"uptime":4061}}
+{"timestamp":"2019-05-17T13:53:45.000225+0000","event_type":"stats","stats":{"uptime":4068}}
+{"timestamp":"2019-05-17T13:53:52.000086+0000","event_type":"stats","stats":{"uptime":4075}}
+{"timestamp":"2019-05-17T13:53:59.000096+0000","event_type":"stats","stats":{"uptime":4082}}
+{"timestamp":"2019-05-17T13:54:06.000196+0000","event_type":"stats","stats":{"uptime":4089}}
+{"timestamp":"2019-05-17T13:54:13.000090+0000","event_type":"stats","stats":{"uptime":4096}}
+{"timestamp":"2019-05-17T13:54:20.000251+0000","event_type":"stats","stats":{"uptime":4103}}
+{"timestamp":"2019-05-17T13:54:27.000195+0000","event_type":"stats","stats":{"uptime":4110}}
+{"timestamp":"2019-05-17T13:54:34.000247+0000","event_type":"stats","stats":{"uptime":4117}}
+{"timestamp":"2019-05-17T13:54:41.000130+0000","event_type":"stats","stats":{"uptime":4124}}
+{"timestamp":"2019-05-17T13:54:48.000091+0000","event_type":"stats","stats":{"uptime":4131}}
+{"timestamp":"2019-05-17T13:54:55.000163+0000","event_type":"stats","stats":{"uptime":4138}}
+{"timestamp":"2019-05-17T13:55:02.000143+0000","event_type":"stats","stats":{"uptime":4145}}
+{"timestamp":"2019-05-17T13:55:09.000195+0000","event_type":"stats","stats":{"uptime":4152}}
+{"timestamp":"2019-05-17T13:55:16.000122+0000","event_type":"stats","stats":{"uptime":4159}}
+{"timestamp":"2019-05-17T13:55:23.000298+0000","event_type":"stats","stats":{"uptime":4166}}
+{"timestamp":"2019-05-17T13:55:30.000206+0000","event_type":"stats","stats":{"uptime":4173}}
+{"timestamp":"2019-05-17T13:55:37.000205+0000","event_type":"stats","stats":{"uptime":4180}}
+{"timestamp":"2019-05-17T13:55:44.000119+0000","event_type":"stats","stats":{"uptime":4187}}
+{"timestamp":"2019-05-17T13:55:51.000214+0000","event_type":"stats","stats":{"uptime":4194}}
+{"timestamp":"2019-05-17T13:55:58.000744+0000","event_type":"stats","stats":{"uptime":4201}}
+{"timestamp":"2019-05-17T13:56:05.000100+0000","event_type":"stats","stats":{"uptime":4208}}
+{"timestamp":"2019-05-17T13:56:12.000113+0000","event_type":"stats","stats":{"uptime":4215}}
+{"timestamp":"2019-05-17T13:56:19.000089+0000","event_type":"stats","stats":{"uptime":4222}}
+{"timestamp":"2019-05-17T13:56:26.000156+0000","event_type":"stats","stats":{"uptime":4229}}
+{"timestamp":"2019-05-17T13:56:33.000091+0000","event_type":"stats","stats":{"uptime":4236}}
+{"timestamp":"2019-05-17T13:56:40.000125+0000","event_type":"stats","stats":{"uptime":4243}}
+{"timestamp":"2019-05-17T13:56:47.000101+0000","event_type":"stats","stats":{"uptime":4250}}
+{"timestamp":"2019-05-17T13:56:54.000100+0000","event_type":"stats","stats":{"uptime":4257}}
+{"timestamp":"2019-05-17T13:57:01.000215+0000","event_type":"stats","stats":{"uptime":4264}}
+{"timestamp":"2019-05-17T13:57:08.000112+0000","event_type":"stats","stats":{"uptime":4271}}
+{"timestamp":"2019-05-17T13:57:15.000161+0000","event_type":"stats","stats":{"uptime":4278}}
+{"timestamp":"2019-05-17T13:57:22.000112+0000","event_type":"stats","stats":{"uptime":4285}}
+{"timestamp":"2019-05-17T13:57:29.000140+0000","event_type":"stats","stats":{"uptime":4292}}
+{"timestamp":"2019-05-17T13:57:36.000223+0000","event_type":"stats","stats":{"uptime":4299}}
+{"timestamp":"2019-05-17T13:57:43.000154+0000","event_type":"stats","stats":{"uptime":4306}}
+{"timestamp":"2019-05-17T13:57:51.000155+0000","event_type":"stats","stats":{"uptime":4314}}
+{"timestamp":"2019-05-17T13:57:59.000205+0000","event_type":"stats","stats":{"uptime":4322}}
+{"timestamp":"2019-05-17T13:58:06.000123+0000","event_type":"stats","stats":{"uptime":4329}}
+{"timestamp":"2019-05-17T13:58:13.000214+0000","event_type":"stats","stats":{"uptime":4336}}
+{"timestamp":"2019-05-17T13:58:20.000122+0000","event_type":"stats","stats":{"uptime":4343}}
+{"timestamp":"2019-05-17T13:58:27.000146+0000","event_type":"stats","stats":{"uptime":4350}}
+{"timestamp":"2019-05-17T13:58:34.000288+0000","event_type":"stats","stats":{"uptime":4357}}
+{"timestamp":"2019-05-17T13:58:41.000145+0000","event_type":"stats","stats":{"uptime":4364}}
+{"timestamp":"2019-05-17T13:58:48.000217+0000","event_type":"stats","stats":{"uptime":4371}}
+{"timestamp":"2019-05-17T13:58:55.000209+0000","event_type":"stats","stats":{"uptime":4378}}
+{"timestamp":"2019-05-17T13:59:02.000721+0000","event_type":"stats","stats":{"uptime":4385}}
+{"timestamp":"2019-05-17T13:59:09.000149+0000","event_type":"stats","stats":{"uptime":4392}}
+{"timestamp":"2019-05-17T13:59:16.000095+0000","event_type":"stats","stats":{"uptime":4399}}
+{"timestamp":"2019-05-17T13:59:23.000159+0000","event_type":"stats","stats":{"uptime":4406}}
+{"timestamp":"2019-05-17T13:59:30.000244+0000","event_type":"stats","stats":{"uptime":4413}}
+{"timestamp":"2019-05-17T13:59:37.000697+0000","event_type":"stats","stats":{"uptime":4420}}
+{"timestamp":"2019-05-17T13:59:44.000146+0000","event_type":"stats","stats":{"uptime":4427}}
+{"timestamp":"2019-05-17T13:59:51.000142+0000","event_type":"stats","stats":{"uptime":4434}}
+{"timestamp":"2019-05-17T13:59:58.000098+0000","event_type":"stats","stats":{"uptime":4441}}
+{"timestamp":"2019-05-17T14:00:05.000732+0000","event_type":"stats","stats":{"uptime":4448}}
+{"timestamp":"2019-05-17T14:00:12.000275+0000","event_type":"stats","stats":{"uptime":4455}}
+{"timestamp":"2019-05-17T14:00:19.000225+0000","event_type":"stats","stats":{"uptime":4462}}
+{"timestamp":"2019-05-17T14:00:26.000088+0000","event_type":"stats","stats":{"uptime":4469}}
+{"timestamp":"2019-05-17T14:00:33.000085+0000","event_type":"stats","stats":{"uptime":4476}}
+{"timestamp":"2019-05-17T14:00:40.000159+0000","event_type":"stats","stats":{"uptime":4483}}
+{"timestamp":"2019-05-17T14:00:47.000332+0000","event_type":"stats","stats":{"uptime":4490}}
+{"timestamp":"2019-05-17T14:00:54.000226+0000","event_type":"stats","stats":{"uptime":4497}}
+{"timestamp":"2019-05-17T14:01:01.000205+0000","event_type":"stats","stats":{"uptime":4504}}
+{"timestamp":"2019-05-17T14:01:08.000231+0000","event_type":"stats","stats":{"uptime":4511}}
+{"timestamp":"2019-05-17T14:01:15.000581+0000","event_type":"stats","stats":{"uptime":4518}}
+{"timestamp":"2019-05-17T14:01:22.000736+0000","event_type":"stats","stats":{"uptime":4525}}
+{"timestamp":"2019-05-17T14:01:29.000742+0000","event_type":"stats","stats":{"uptime":4532}}
+{"timestamp":"2019-05-17T14:01:36.000760+0000","event_type":"stats","stats":{"uptime":4539}}
+{"timestamp":"2019-05-17T14:01:43.000261+0000","event_type":"stats","stats":{"uptime":4546}}
+{"timestamp":"2019-05-17T14:01:50.000732+0000","event_type":"stats","stats":{"uptime":4553}}
+{"timestamp":"2019-05-17T14:01:57.000247+0000","event_type":"stats","stats":{"uptime":4560}}
+{"timestamp":"2019-05-17T14:02:04.000243+0000","event_type":"stats","stats":{"uptime":4567}}
+{"timestamp":"2019-05-17T14:02:11.000640+0000","event_type":"stats","stats":{"uptime":4574}}
+{"timestamp":"2019-05-17T14:02:18.000115+0000","event_type":"stats","stats":{"uptime":4581}}
+{"timestamp":"2019-05-17T14:02:25.000324+0000","event_type":"stats","stats":{"uptime":4588}}
+{"timestamp":"2019-05-17T14:02:32.000248+0000","event_type":"stats","stats":{"uptime":4595}}
+{"timestamp":"2019-05-17T14:02:39.000700+0000","event_type":"stats","stats":{"uptime":4602}}
+{"timestamp":"2019-05-17T14:02:46.000155+0000","event_type":"stats","stats":{"uptime":4609}}
+{"timestamp":"2019-05-17T14:02:53.000718+0000","event_type":"stats","stats":{"uptime":4616}}
+{"timestamp":"2019-05-17T14:03:00.000261+0000","event_type":"stats","stats":{"uptime":4623}}
+{"timestamp":"2019-05-17T14:03:07.000764+0000","event_type":"stats","stats":{"uptime":4630}}
+{"timestamp":"2019-05-17T14:03:14.000736+0000","event_type":"stats","stats":{"uptime":4637}}
+{"timestamp":"2019-05-17T14:03:21.000599+0000","event_type":"stats","stats":{"uptime":4644}}
+{"timestamp":"2019-05-17T14:03:28.000252+0000","event_type":"stats","stats":{"uptime":4651}}
+{"timestamp":"2019-05-17T14:03:35.000512+0000","event_type":"stats","stats":{"uptime":4658}}
+{"timestamp":"2019-05-17T14:03:42.000732+0000","event_type":"stats","stats":{"uptime":4665}}
+{"timestamp":"2019-05-17T14:03:49.000733+0000","event_type":"stats","stats":{"uptime":4672}}
+{"timestamp":"2019-05-17T14:03:56.000728+0000","event_type":"stats","stats":{"uptime":4679}}
+{"timestamp":"2019-05-17T14:04:03.000244+0000","event_type":"stats","stats":{"uptime":4686}}
+{"timestamp":"2019-05-17T14:04:10.000669+0000","event_type":"stats","stats":{"uptime":4693}}
+{"timestamp":"2019-05-17T14:04:17.000740+0000","event_type":"stats","stats":{"uptime":4700}}
+{"timestamp":"2019-05-17T14:04:24.000727+0000","event_type":"stats","stats":{"uptime":4707}}
+{"timestamp":"2019-05-17T14:04:31.000728+0000","event_type":"stats","stats":{"uptime":4714}}
+{"timestamp":"2019-05-17T14:04:39.000766+0000","event_type":"stats","stats":{"uptime":4722}}
+{"timestamp":"2019-05-17T14:04:47.000755+0000","event_type":"stats","stats":{"uptime":4730}}
+{"timestamp":"2019-05-17T14:04:55.000116+0000","event_type":"stats","stats":{"uptime":4738}}
+{"timestamp":"2019-05-17T14:05:02.000098+0000","event_type":"stats","stats":{"uptime":4745}}
+{"timestamp":"2019-05-17T14:05:09.000262+0000","event_type":"stats","stats":{"uptime":4752}}
+{"timestamp":"2019-05-17T14:05:16.000233+0000","event_type":"stats","stats":{"uptime":4759}}
+{"timestamp":"2019-05-17T14:05:23.000745+0000","event_type":"stats","stats":{"uptime":4766}}
+{"timestamp":"2019-05-17T14:05:31.000705+0000","event_type":"stats","stats":{"uptime":4774}}
+{"timestamp":"2019-05-17T14:05:38.000267+0000","event_type":"stats","stats":{"uptime":4781}}
+{"timestamp":"2019-05-17T14:05:45.000728+0000","event_type":"stats","stats":{"uptime":4788}}
+{"timestamp":"2019-05-17T14:05:52.000294+0000","event_type":"stats","stats":{"uptime":4795}}
+{"timestamp":"2019-05-17T14:05:59.000718+0000","event_type":"stats","stats":{"uptime":4802}}
+{"timestamp":"2019-05-17T14:06:06.000727+0000","event_type":"stats","stats":{"uptime":4809}}
+{"timestamp":"2019-05-17T14:06:13.001071+0000","event_type":"stats","stats":{"uptime":4816}}
+{"timestamp":"2019-05-17T14:06:20.000142+0000","event_type":"stats","stats":{"uptime":4823}}
+{"timestamp":"2019-05-17T14:06:27.000560+0000","event_type":"stats","stats":{"uptime":4830}}
+{"timestamp":"2019-05-17T14:06:34.000738+0000","event_type":"stats","stats":{"uptime":4837}}
+{"timestamp":"2019-05-17T14:06:41.000251+0000","event_type":"stats","stats":{"uptime":4844}}
+{"timestamp":"2019-05-17T14:06:48.000657+0000","event_type":"stats","stats":{"uptime":4851}}
+{"timestamp":"2019-05-17T14:06:55.000217+0000","event_type":"stats","stats":{"uptime":4858}}
+{"timestamp":"2019-05-17T14:07:02.000335+0000","event_type":"stats","stats":{"uptime":4865}}
+{"timestamp":"2019-05-17T14:07:09.000113+0000","event_type":"stats","stats":{"uptime":4872}}
+{"timestamp":"2019-05-17T14:07:16.000755+0000","event_type":"stats","stats":{"uptime":4879}}
+{"timestamp":"2019-05-17T14:07:23.000743+0000","event_type":"stats","stats":{"uptime":4886}}
+{"timestamp":"2019-05-17T14:07:30.000161+0000","event_type":"stats","stats":{"uptime":4893}}
+{"timestamp":"2019-05-17T14:07:37.000516+0000","event_type":"stats","stats":{"uptime":4900}}
+{"timestamp":"2019-05-17T14:07:44.000121+0000","event_type":"stats","stats":{"uptime":4907}}
+{"timestamp":"2019-05-17T14:07:51.000714+0000","event_type":"stats","stats":{"uptime":4914}}
+{"timestamp":"2019-05-17T14:07:58.000041+0000","event_type":"stats","stats":{"uptime":4921}}
+{"timestamp":"2019-05-17T14:08:05.000198+0000","event_type":"stats","stats":{"uptime":4928}}
+{"timestamp":"2019-05-17T14:08:12.000732+0000","event_type":"stats","stats":{"uptime":4935}}
+{"timestamp":"2019-05-17T14:08:19.000743+0000","event_type":"stats","stats":{"uptime":4942}}
+{"timestamp":"2019-05-17T14:08:26.000088+0000","event_type":"stats","stats":{"uptime":4949}}
+{"timestamp":"2019-05-17T14:08:33.000086+0000","event_type":"stats","stats":{"uptime":4956}}
+{"timestamp":"2019-05-17T14:08:40.000130+0000","event_type":"stats","stats":{"uptime":4963}}
+{"timestamp":"2019-05-17T14:08:47.000133+0000","event_type":"stats","stats":{"uptime":4970}}
+{"timestamp":"2019-05-17T14:08:54.000148+0000","event_type":"stats","stats":{"uptime":4977}}
+{"timestamp":"2019-05-17T14:09:01.000157+0000","event_type":"stats","stats":{"uptime":4984}}
+{"timestamp":"2019-05-17T14:09:08.000146+0000","event_type":"stats","stats":{"uptime":4991}}
+{"timestamp":"2019-05-17T14:09:15.000128+0000","event_type":"stats","stats":{"uptime":4998}}
+{"timestamp":"2019-05-17T14:09:22.000100+0000","event_type":"stats","stats":{"uptime":5005}}
+{"timestamp":"2019-05-17T14:09:29.000599+0000","event_type":"stats","stats":{"uptime":5012}}
+{"timestamp":"2019-05-17T14:09:36.000569+0000","event_type":"stats","stats":{"uptime":5019}}
+{"timestamp":"2019-05-17T14:09:43.000201+0000","event_type":"stats","stats":{"uptime":5026}}
+{"timestamp":"2019-05-17T14:09:50.000128+0000","event_type":"stats","stats":{"uptime":5033}}
+{"timestamp":"2019-05-17T14:09:57.000086+0000","event_type":"stats","stats":{"uptime":5040}}
+{"timestamp":"2019-05-17T14:10:04.000124+0000","event_type":"stats","stats":{"uptime":5047}}
+{"timestamp":"2019-05-17T14:10:11.000123+0000","event_type":"stats","stats":{"uptime":5054}}
+{"timestamp":"2019-05-17T14:10:18.000145+0000","event_type":"stats","stats":{"uptime":5061}}
+{"timestamp":"2019-05-17T14:10:25.000139+0000","event_type":"stats","stats":{"uptime":5068}}
+{"timestamp":"2019-05-17T14:10:32.000161+0000","event_type":"stats","stats":{"uptime":5075}}
+{"timestamp":"2019-05-17T14:10:39.000725+0000","event_type":"stats","stats":{"uptime":5082}}
+{"timestamp":"2019-05-17T14:10:46.000700+0000","event_type":"stats","stats":{"uptime":5089}}
+{"timestamp":"2019-05-17T14:10:53.000112+0000","event_type":"stats","stats":{"uptime":5096}}
+{"timestamp":"2019-05-17T14:11:00.000105+0000","event_type":"stats","stats":{"uptime":5103}}
+{"timestamp":"2019-05-17T14:11:07.000122+0000","event_type":"stats","stats":{"uptime":5110}}
+{"timestamp":"2019-05-17T14:11:14.000188+0000","event_type":"stats","stats":{"uptime":5117}}
+{"timestamp":"2019-05-17T14:11:21.000137+0000","event_type":"stats","stats":{"uptime":5124}}
+{"timestamp":"2019-05-17T14:11:28.000138+0000","event_type":"stats","stats":{"uptime":5131}}
+{"timestamp":"2019-05-17T14:11:36.000097+0000","event_type":"stats","stats":{"uptime":5139}}
+{"timestamp":"2019-05-17T14:11:44.000103+0000","event_type":"stats","stats":{"uptime":5147}}
+{"timestamp":"2019-05-17T14:11:51.000166+0000","event_type":"stats","stats":{"uptime":5154}}
+{"timestamp":"2019-05-17T14:11:58.000122+0000","event_type":"stats","stats":{"uptime":5161}}
+{"timestamp":"2019-05-17T14:12:05.000147+0000","event_type":"stats","stats":{"uptime":5168}}
+{"timestamp":"2019-05-17T14:12:12.000167+0000","event_type":"stats","stats":{"uptime":5175}}
+{"timestamp":"2019-05-17T14:12:19.000198+0000","event_type":"stats","stats":{"uptime":5182}}
+{"timestamp":"2019-05-17T14:12:26.000304+0000","event_type":"stats","stats":{"uptime":5189}}
+{"timestamp":"2019-05-17T14:12:33.000238+0000","event_type":"stats","stats":{"uptime":5196}}
+{"timestamp":"2019-05-17T14:12:40.000111+0000","event_type":"stats","stats":{"uptime":5203}}
+{"timestamp":"2019-05-17T14:12:47.000213+0000","event_type":"stats","stats":{"uptime":5210}}
+{"timestamp":"2019-05-17T14:12:54.000131+0000","event_type":"stats","stats":{"uptime":5217}}
+{"timestamp":"2019-05-17T14:13:01.000684+0000","event_type":"stats","stats":{"uptime":5224}}
+{"timestamp":"2019-05-17T14:13:01.506225+0000","flow_id":93924674338624,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":47996,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.533597+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":0,"http":{"hostname":"192.168.1.110","url":"\/.kibana\/doc\/config%3A6.5.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:01.553391+0000","flow_id":93924674338928,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":47998,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/app\/kibana","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/html"}}
+{"timestamp":"2019-05-17T14:13:01.506386+0000","flow_id":93924674338320,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53862,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.553319+0000","flow_id":93924674338320,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53862,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/app\/kibana","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.663759+0000","flow_id":93924674340448,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48008,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/ui\/favicons\/favicon-16x16.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/png"}}
+{"timestamp":"2019-05-17T14:13:01.634838+0000","flow_id":93924674339536,"event_type":"http","src_ip":"192.168.1.135","src_port":48002,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/app\/kibana\/bootstrap.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/javascript"}}
+{"timestamp":"2019-05-17T14:13:01.634838+0000","flow_id":93924674339536,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48002,"proto":"TCP","http":{"hostname":"kibana","url":"\/bundles\/app\/kibana\/bootstrap.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/javascript","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":682},"app_proto":"http","fileinfo":{"filename":"\/bundles\/app\/kibana\/bootstrap.js","state":"CLOSED","stored":false,"size":2339,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.882016+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.886319+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/plugins\/status_page\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.896569+0000","flow_id":93924674344400,"event_type":"http","src_ip":"192.168.1.135","src_port":48034,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/tagcloud\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.896569+0000","flow_id":93924674344400,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48034,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/tagcloud\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":943},"app_proto":"http","fileinfo":{"filename":"\/plugins\/tagcloud\/index.css","state":"CLOSED","stored":false,"size":1764,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.663897+0000","flow_id":93924674340144,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53874,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/ui\/favicons\/favicon-16x16.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/png"}}
+{"timestamp":"2019-05-17T14:13:01.723981+0000","flow_id":93924674340144,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.135","src_port":80,"dest_ip":"198.168.108.119","dest_port":53874,"proto":"TCP","http":{"hostname":"198.168.108.119","url":"\/ui\/favicons\/favicon-16x16.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/png","http_method":"GET","protocol":"HTTP\/1.1","status":200,"length":773},"app_proto":"http","fileinfo":{"filename":"\/ui\/favicons\/favicon-16x16.png","state":"CLOSED","stored":false,"size":773,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.724013+0000","flow_id":93924674340144,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53874,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/bundles\/vendors.style.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.877478+0000","flow_id":93924674343184,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53894,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/plugins\/console\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.877996+0000","flow_id":93924674343184,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53894,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/plugins\/tagcloud\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.903000+0000","flow_id":93924674341664,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48016,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/kibana.style.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.664713+0000","flow_id":93924674340448,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48008,"proto":"TCP","http":{"hostname":"kibana","url":"\/ui\/favicons\/favicon-16x16.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/png","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":773},"app_proto":"http","fileinfo":{"filename":"\/ui\/favicons\/favicon-16x16.png","state":"CLOSED","stored":false,"size":773,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.724401+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/plugins\/vega\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.772230+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/plugins\/timelion\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.877564+0000","flow_id":93924674343488,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48028,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/console\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.889162+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":2,"http":{"hostname":"198.168.108.119","url":"\/plugins\/region_map\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.884455+0000","flow_id":93924674344096,"event_type":"http","src_ip":"192.168.1.135","src_port":48032,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/tile_map\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.884455+0000","flow_id":93924674344096,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48032,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/tile_map\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":507},"app_proto":"http","fileinfo":{"filename":"\/plugins\/tile_map\/index.css","state":"CLOSED","stored":false,"size":662,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.885999+0000","flow_id":93924674342880,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48024,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.889517+0000","flow_id":93924674341360,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53882,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":0,"http":{"hostname":"198.168.108.119","url":"\/bundles\/kibana.style.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.905178+0000","flow_id":93924674341360,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53882,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":1,"http":{"hostname":"198.168.108.119","url":"\/plugins\/inspector_views\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.724452+0000","flow_id":93924674342272,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48020,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/vega\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.861389+0000","flow_id":93924674340752,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48010,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/vendors.style.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.907723+0000","flow_id":93924674345312,"event_type":"http","src_ip":"192.168.1.135","src_port":48040,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/region_map\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.907723+0000","flow_id":93924674345312,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48040,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/region_map\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":294},"app_proto":"http","fileinfo":{"filename":"\/plugins\/region_map\/index.css","state":"CLOSED","stored":false,"size":334,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.656750+0000","flow_id":93924674339840,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48004,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/ui\/favicons\/apple-touch-icon.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.888724+0000","flow_id":93924674343792,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48030,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/timelion\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.903796+0000","flow_id":93924674344704,"event_type":"http","src_ip":"192.168.1.135","src_port":48036,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/table_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.903796+0000","flow_id":93924674344704,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48036,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/table_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":741},"app_proto":"http","fileinfo":{"filename":"\/plugins\/table_vis\/index.css","state":"CLOSED","stored":false,"size":2054,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.906261+0000","flow_id":93924674345008,"event_type":"http","src_ip":"192.168.1.135","src_port":48038,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/status_page\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.906261+0000","flow_id":93924674345008,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48038,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/status_page\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":235},"app_proto":"http","fileinfo":{"filename":"\/plugins\/status_page\/index.css","state":"CLOSED","stored":false,"size":240,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.918428+0000","flow_id":93924674343184,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53894,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":2,"http":{"hostname":"198.168.108.119","url":"\/plugins\/metric_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.926888+0000","flow_id":93924674345920,"event_type":"http","src_ip":"192.168.1.135","src_port":48044,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/markdown_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.929580+0000","flow_id":93924674346528,"event_type":"http","src_ip":"192.168.1.135","src_port":48048,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/input_control_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.926888+0000","flow_id":93924674345920,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48044,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/markdown_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":362},"app_proto":"http","fileinfo":{"filename":"\/plugins\/markdown_vis\/index.css","state":"CLOSED","stored":false,"size":436,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.929580+0000","flow_id":93924674346528,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48048,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/input_control_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":667},"app_proto":"http","fileinfo":{"filename":"\/plugins\/input_control_vis\/index.css","state":"CLOSED","stored":false,"size":1090,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.918400+0000","flow_id":93924674345616,"event_type":"http","src_ip":"192.168.1.135","src_port":48042,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/metric_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.929607+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":2,"http":{"hostname":"198.168.108.119","url":"\/plugins\/input_control_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.918400+0000","flow_id":93924674345616,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48042,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/metric_vis\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":1285},"app_proto":"http","fileinfo":{"filename":"\/plugins\/metric_vis\/index.css","state":"CLOSED","stored":false,"size":3101,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.929037+0000","flow_id":93924674346224,"event_type":"http","src_ip":"192.168.1.135","src_port":48046,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/inspector_views\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:01.929037+0000","flow_id":93924674346224,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48046,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/inspector_views\/index.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":707},"app_proto":"http","fileinfo":{"filename":"\/plugins\/inspector_views\/index.css","state":"CLOSED","stored":false,"size":1263,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:01.942114+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":3,"http":{"hostname":"198.168.108.119","url":"\/bundles\/vendors.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:01.962423+0000","flow_id":93924674346832,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48050,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/vendors.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/javascript"}}
+{"timestamp":"2019-05-17T14:13:01.931049+0000","flow_id":93924674341056,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48012,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/commons.style.css","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"text\/css"}}
+{"timestamp":"2019-05-17T14:13:02.564245+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":41978,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/doc\/config%3A6.5.0","http_content_type":"application\/json","http_method":"GET","protocol":"HTTP\/1.1","status":200,"length":179},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/doc\/config:6.5.0","state":"CLOSED","stored":false,"size":179,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:03.118545+0000","flow_id":93924674348048,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48056,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/commons.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/javascript"}}
+{"timestamp":"2019-05-17T14:13:03.159220+0000","flow_id":93924674347744,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.120","src_port":60488,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":0,"http":{"hostname":"192.168.1.110","url":"\/_bulk","http_user_agent":"Manticore 0.6.4","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:03.159220+0000","flow_id":93924674347744,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.120","dest_port":60488,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/_bulk","http_user_agent":"Manticore 0.6.4","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":322},"app_proto":"http","fileinfo":{"filename":"\/_bulk","state":"CLOSED","stored":false,"size":3624,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:03.203063+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":4,"http":{"hostname":"198.168.108.119","url":"\/bundles\/commons.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:03.308179+0000","flow_id":93924674348352,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48058,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/kibana.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/javascript"}}
+{"timestamp":"2019-05-17T14:13:03.752663+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":5,"http":{"hostname":"198.168.108.119","url":"\/bundles\/kibana.bundle.js","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:04.167876+0000","flow_id":93924674347440,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.120","src_port":60486,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":0,"http":{"hostname":"192.168.1.110","url":"\/_bulk","http_user_agent":"Manticore 0.6.4","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:04.167876+0000","flow_id":93924674347440,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.120","dest_port":60486,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/_bulk","http_user_agent":"Manticore 0.6.4","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":336},"app_proto":"http","fileinfo":{"filename":"\/_bulk","state":"CLOSED","stored":false,"size":3835,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.332327+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":6,"http":{"hostname":"198.168.108.119","url":"\/api\/console\/api_server?sense_version=%40%40SENSE_VERSION&apis=es_6_0","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.730566+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":7,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/discover.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.738424+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":8,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/visualize.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.747706+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":9,"http":{"hostname":"198.168.108.119","url":"\/plugins\/timelion\/icon.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.753991+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":10,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/wrench.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.762632+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":11,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/settings.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.742840+0000","flow_id":93924674349568,"event_type":"http","src_ip":"192.168.1.135","src_port":48066,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/dashboard.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.742840+0000","flow_id":93924674349568,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48066,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/dashboard.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":284},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/dashboard.svg","state":"CLOSED","stored":false,"size":500,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.765926+0000","flow_id":93924674350784,"event_type":"http","src_ip":"192.168.1.135","src_port":48074,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/play-circle.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.765926+0000","flow_id":93924674350784,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48074,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/play-circle.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":164},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/play-circle.svg","state":"CLOSED","stored":false,"size":190,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.730534+0000","flow_id":93924674348960,"event_type":"http","src_ip":"192.168.1.135","src_port":48062,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/discover.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.730534+0000","flow_id":93924674348960,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48062,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/discover.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":216},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/discover.svg","state":"CLOSED","stored":false,"size":307,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.762583+0000","flow_id":93924674350480,"event_type":"http","src_ip":"192.168.1.135","src_port":48072,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/settings.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.762583+0000","flow_id":93924674350480,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48072,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/settings.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":296},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/settings.svg","state":"CLOSED","stored":false,"size":542,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.738386+0000","flow_id":93924674349264,"event_type":"http","src_ip":"192.168.1.135","src_port":48064,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/visualize.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.738386+0000","flow_id":93924674349264,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48064,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/visualize.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":156},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/visualize.svg","state":"CLOSED","stored":false,"size":168,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.742874+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":3,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/dashboard.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.747678+0000","flow_id":93924674349872,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48068,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/timelion\/icon.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.765960+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":4,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/play-circle.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.332480+0000","flow_id":93924674348656,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48060,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/api\/console\/api_server?sense_version=%40%40SENSE_VERSION&apis=es_6_0","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:05.753958+0000","flow_id":93924674350176,"event_type":"http","src_ip":"192.168.1.135","src_port":48070,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/wrench.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:05.753958+0000","flow_id":93924674350176,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48070,"proto":"TCP","http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/wrench.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":278},"app_proto":"http","fileinfo":{"filename":"\/plugins\/kibana\/assets\/wrench.svg","state":"CLOSED","stored":false,"size":421,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.804333+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":12,"http":{"hostname":"198.168.108.119","url":"\/api\/saved_objects\/_find?type=index-pattern&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.804303+0000","flow_id":93924674351088,"event_type":"http","src_ip":"192.168.1.135","src_port":48076,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:05.802133+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":1,"http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:05.804303+0000","flow_id":93924674351088,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48076,"proto":"TCP","http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":68},"app_proto":"http","fileinfo":{"filename":"\/api\/saved_objects\/_find","state":"CLOSED","stored":false,"size":56,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.802133+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":193,"tx_id":1}}
+{"timestamp":"2019-05-17T14:13:05.821763+0000","flow_id":93924674351696,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48080,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_regular.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:05.813354+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":13,"http":{"hostname":"198.168.108.119","url":"\/bundles\/fa0bbd682c66f1187d48f74b33b5bbd0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.204425+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":41978,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":134,"tx_id":1}}
+{"timestamp":"2019-05-17T14:13:06.204457+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":2,"http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=1&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:06.204457+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=1&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":135},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":273,"tx_id":2}}
+{"timestamp":"2019-05-17T14:13:05.813325+0000","flow_id":93924674351392,"event_type":"http","src_ip":"192.168.1.135","src_port":48078,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/fa0bbd682c66f1187d48f74b33b5bbd0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:06.206472+0000","flow_id":93924674352000,"event_type":"http","src_ip":"192.168.1.135","src_port":48082,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&search=*&search_fields=title&per_page=1","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:05.813325+0000","flow_id":93924674351392,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48078,"proto":"TCP","http":{"hostname":"kibana","url":"\/bundles\/fa0bbd682c66f1187d48f74b33b5bbd0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/bundles\/commons.style.css","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":884},"app_proto":"http","fileinfo":{"filename":"\/bundles\/fa0bbd682c66f1187d48f74b33b5bbd0.svg","state":"CLOSED","stored":false,"size":2219,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:06.206472+0000","flow_id":93924674352000,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48082,"proto":"TCP","http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&search=*&search_fields=title&per_page=1","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":64},"app_proto":"http","fileinfo":{"filename":"\/api\/saved_objects\/_find","state":"CLOSED","stored":false,"size":52,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:05.821902+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":14,"http":{"hostname":"198.168.108.119","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_regular.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.250292+0000","flow_id":93924674353216,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48090,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_600.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.253523+0000","flow_id":93924674352608,"event_type":"http","src_ip":"192.168.1.135","src_port":48086,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/176bcca991b07a6ec908fc4d36ac5ae0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:06.260369+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":5,"http":{"hostname":"198.168.108.119","url":"\/bundles\/cc17a3dbad9fc4557b4d5d47a38fcc56.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.253523+0000","flow_id":93924674352608,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48086,"proto":"TCP","http":{"hostname":"kibana","url":"\/bundles\/176bcca991b07a6ec908fc4d36ac5ae0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/bundles\/kibana.style.css","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":553},"app_proto":"http","fileinfo":{"filename":"\/bundles\/176bcca991b07a6ec908fc4d36ac5ae0.svg","state":"CLOSED","stored":false,"size":1804,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:06.228236+0000","flow_id":93924674352304,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48084,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/plugins\/kibana\/assets\/illo_dashboard.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.250476+0000","flow_id":93924674341360,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53882,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":2,"http":{"hostname":"198.168.108.119","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_600.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.260332+0000","flow_id":93924674352912,"event_type":"http","src_ip":"192.168.1.135","src_port":48088,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/cc17a3dbad9fc4557b4d5d47a38fcc56.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml"}}
+{"timestamp":"2019-05-17T14:13:06.260332+0000","flow_id":93924674352912,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48088,"proto":"TCP","http":{"hostname":"kibana","url":"\/bundles\/cc17a3dbad9fc4557b4d5d47a38fcc56.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"image\/svg+xml","http_refer":"http:\/\/198.168.108.119:8080\/bundles\/kibana.style.css","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":889},"app_proto":"http","fileinfo":{"filename":"\/bundles\/cc17a3dbad9fc4557b4d5d47a38fcc56.svg","state":"CLOSED","stored":false,"size":3978,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:06.206507+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":15,"http":{"hostname":"198.168.108.119","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&search=*&search_fields=title&per_page=1","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.253558+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":16,"http":{"hostname":"198.168.108.119","url":"\/plugins\/kibana\/assets\/illo_dashboard.png","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:06.253558+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":17,"http":{"hostname":"198.168.108.119","url":"\/bundles\/176bcca991b07a6ec908fc4d36ac5ae0.svg","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:07.232270+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":41978,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=1&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":135},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":135,"tx_id":2}}
+{"timestamp":"2019-05-17T14:13:08.000195+0000","event_type":"stats","stats":{"uptime":5231}}
+{"timestamp":"2019-05-17T14:13:08.791998+0000","flow_id":93924674353520,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48092,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_700.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:10.809470+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":3,"http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cindex-pattern.type%2Cnamespace%2Ctype%2Ctitle%2Ctype","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:10.815292+0000","flow_id":93924674353824,"event_type":"http","src_ip":"192.168.1.135","src_port":48094,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&fields=type&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:10.809470+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cindex-pattern.type%2Cnamespace%2Ctype%2Ctitle%2Ctype","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":193,"tx_id":3}}
+{"timestamp":"2019-05-17T14:13:10.821732+0000","flow_id":93924674354128,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.135","src_port":48096,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/bundles\/4b5a84aaf1c9485e060c503a0ff8cadb.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:10.815292+0000","flow_id":93924674353824,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48094,"proto":"TCP","http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&fields=type&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":68},"app_proto":"http","fileinfo":{"filename":"\/api\/saved_objects\/_find","state":"CLOSED","stored":false,"size":56,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:10.815359+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":18,"http":{"hostname":"198.168.108.119","url":"\/ui\/fonts\/open_sans\/open_sans_v15_latin_700.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:10.815359+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":19,"http":{"hostname":"198.168.108.119","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&fields=type&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:11.015479+0000","flow_id":93924674354736,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":42078,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":0,"http":{"hostname":"192.168.1.110","url":"\/*\/_search","xff":"192.168.1.135","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:11.017299+0000","flow_id":93924674354432,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.135","src_port":48098,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","http":{"hostname":"kibana","url":"\/elasticsearch\/*\/_search","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"POST","protocol":"HTTP\/1.0","status":200,"length":10},"app_proto":"http","fileinfo":{"filename":"\/elasticsearch\/*\/_search","state":"CLOSED","stored":false,"size":69,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:11.015479+0000","flow_id":93924674354736,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":42078,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/*\/_search","xff":"192.168.1.135","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":314},"app_proto":"http","fileinfo":{"filename":"\/*\/_search","state":"CLOSED","stored":false,"size":69,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:11.015728+0000","flow_id":93924674354736,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":42078,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/*\/_search","xff":"192.168.1.135","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":314},"app_proto":"http","fileinfo":{"filename":"\/*\/_search","state":"CLOSED","stored":false,"size":314,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:11.301464+0000","flow_id":93924674355040,"event_type":"http","src_ip":"192.168.1.135","src_port":48102,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:11.299899+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":41978,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cindex-pattern.type%2Cnamespace%2Ctype%2Ctitle%2Ctype","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":134,"tx_id":3}}
+{"timestamp":"2019-05-17T14:13:11.017721+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":20,"http":{"hostname":"198.168.108.119","url":"\/elasticsearch\/*\/_search","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:11.299931+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","tx_id":4,"http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:11.017742+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","app_proto":"http","fileinfo":{"filename":"\/elasticsearch\/*\/_search","state":"CLOSED","stored":false,"size":69,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:11.299931+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":41978,"dest_ip":"192.168.1.110","dest_port":9200,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":193,"tx_id":4}}
+{"timestamp":"2019-05-17T14:13:11.017691+0000","flow_id":93924674354432,"event_type":"http","src_ip":"192.168.1.135","src_port":48098,"dest_ip":"192.168.1.130","dest_port":5601,"proto":"TCP","tx_id":0,"http":{"hostname":"kibana","url":"\/elasticsearch\/*\/_search","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json"}}
+{"timestamp":"2019-05-17T14:13:11.301497+0000","flow_id":93924674341968,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53886,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":21,"http":{"hostname":"198.168.108.119","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:11.301464+0000","flow_id":93924674355040,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48102,"proto":"TCP","http":{"hostname":"kibana","url":"\/api\/saved_objects\/_find?type=index-pattern&fields=title&per_page=10000","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"GET","protocol":"HTTP\/1.0","status":200,"length":68},"app_proto":"http","fileinfo":{"filename":"\/api\/saved_objects\/_find","state":"CLOSED","stored":false,"size":56,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:11.017691+0000","flow_id":93924674354432,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.130","src_port":5601,"dest_ip":"192.168.1.135","dest_port":48098,"proto":"TCP","http":{"hostname":"kibana","url":"\/elasticsearch\/*\/_search","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0","http_content_type":"application\/json","http_refer":"http:\/\/198.168.108.119:8080\/app\/kibana","http_method":"POST","protocol":"HTTP\/1.0","status":200,"length":213},"app_proto":"http","fileinfo":{"filename":"\/elasticsearch\/*\/_search","state":"CLOSED","stored":false,"size":314,"tx_id":0}}
+{"timestamp":"2019-05-17T14:13:12.320316+0000","flow_id":93924674339232,"in_iface":"br-a222b584f620","event_type":"fileinfo","src_ip":"192.168.1.110","src_port":9200,"dest_ip":"192.168.1.130","dest_port":41978,"proto":"TCP","http":{"hostname":"192.168.1.110","url":"\/.kibana\/_search?size=10000&from=0&_source=index-pattern.title%2Cnamespace%2Ctype%2Ctitle","http_content_type":"application\/json","http_method":"POST","protocol":"HTTP\/1.1","status":200,"length":134},"app_proto":"http","fileinfo":{"filename":"\/.kibana\/_search","state":"CLOSED","stored":false,"size":134,"tx_id":4}}
+{"timestamp":"2019-05-17T14:13:15.000195+0000","event_type":"stats","stats":{"uptime":5238}}
+{"timestamp":"2019-05-17T14:13:20.832933+0000","flow_id":93924674342576,"in_iface":"br-a222b584f620","event_type":"http","src_ip":"198.168.108.119","src_port":53890,"dest_ip":"192.168.1.135","dest_port":80,"proto":"TCP","tx_id":6,"http":{"hostname":"198.168.108.119","url":"\/bundles\/4b5a84aaf1c9485e060c503a0ff8cadb.woff2","http_user_agent":"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko\/20100101 Firefox\/66.0"}}
+{"timestamp":"2019-05-17T14:13:22.000130+0000","event_type":"stats","stats":{"uptime":5245}}
+{"timestamp":"2019-05-17T14:13:29.000167+0000","event_type":"stats","stats":{"uptime":5252}}
+{"timestamp":"2019-05-17T14:13:36.000135+0000","event_type":"stats","stats":{"uptime":5259}}
+{"timestamp":"2019-05-17T14:13:43.000164+0000","event_type":"stats","stats":{"uptime":5266}}
+{"timestamp":"2019-05-17T14:13:50.000084+0000","event_type":"stats","stats":{"uptime":5273}}
+{"timestamp":"2019-05-17T14:13:57.000080+0000","event_type":"stats","stats":{"uptime":5280}}
+{"timestamp":"2019-05-17T14:14:04.000128+0000","event_type":"stats","stats":{"uptime":5287}}
+{"timestamp":"2019-05-17T14:14:06.013473+0000","event_type":"stats","stats":{"uptime":5289}}
+{"timestamp":"2019-05-17T14:34:04.000137+0000","event_type":"stats","stats":{"uptime":8}}
+{"timestamp":"2019-05-17T14:34:11.000110+0000","event_type":"stats","stats":{"uptime":15}}
+{"timestamp":"2019-05-17T14:34:18.000098+0000","event_type":"stats","stats":{"uptime":22}}
+{"timestamp":"2019-05-17T14:34:25.000089+0000","event_type":"stats","stats":{"uptime":29}}
+{"timestamp":"2019-05-17T14:34:32.000093+0000","event_type":"stats","stats":{"uptime":36}}
+{"timestamp":"2019-05-17T14:34:39.000094+0000","event_type":"stats","stats":{"uptime":43}}
+{"timestamp":"2019-05-17T14:34:46.000204+0000","event_type":"stats","stats":{"uptime":50}}
+{"timestamp":"2019-05-17T14:34:53.000588+0000","event_type":"stats","stats":{"uptime":57}}
+{"timestamp":"2019-05-17T14:35:00.000144+0000","event_type":"stats","stats":{"uptime":64}}
+{"timestamp":"2019-05-17T14:35:07.000587+0000","event_type":"stats","stats":{"uptime":71}}
+{"timestamp":"2019-05-17T14:35:14.000136+0000","event_type":"stats","stats":{"uptime":78}}
+{"timestamp":"2019-05-17T14:35:21.000142+0000","event_type":"stats","stats":{"uptime":85}}
+{"timestamp":"2019-05-17T14:35:28.000444+0000","event_type":"stats","stats":{"uptime":92}}
+{"timestamp":"2019-05-17T14:35:35.000090+0000","event_type":"stats","stats":{"uptime":99}}
+{"timestamp":"2019-05-17T14:35:42.000084+0000","event_type":"stats","stats":{"uptime":106}}
+{"timestamp":"2019-05-17T14:35:49.000189+0000","event_type":"stats","stats":{"uptime":113}}
+{"timestamp":"2019-05-17T14:35:56.000084+0000","event_type":"stats","stats":{"uptime":120}}
+{"timestamp":"2019-05-17T14:36:03.000135+0000","event_type":"stats","stats":{"uptime":127}}
+{"timestamp":"2019-05-17T14:36:10.000729+0000","event_type":"stats","stats":{"uptime":134}}
+{"timestamp":"2019-05-17T14:36:17.000128+0000","event_type":"stats","stats":{"uptime":141}}
+{"timestamp":"2019-05-17T14:36:24.000123+0000","event_type":"stats","stats":{"uptime":148}}
+{"timestamp":"2019-05-17T14:36:31.000135+0000","event_type":"stats","stats":{"uptime":155}}
+{"timestamp":"2019-05-17T14:36:38.000122+0000","event_type":"stats","stats":{"uptime":162}}
+{"timestamp":"2019-05-17T14:36:45.000091+0000","event_type":"stats","stats":{"uptime":169}}
+{"timestamp":"2019-05-17T14:36:52.000616+0000","event_type":"stats","stats":{"uptime":176}}
+{"timestamp":"2019-05-17T14:36:59.000082+0000","event_type":"stats","stats":{"uptime":183}}
+{"timestamp":"2019-05-17T14:37:06.000094+0000","event_type":"stats","stats":{"uptime":190}}
+{"timestamp":"2019-05-17T14:37:09.003369+0000","event_type":"stats","stats":{"uptime":193}}
+{"timestamp":"2019-05-23T14:32:21.004098+0000","event_type":"stats","stats":{"uptime":9}}
+{"timestamp":"2019-05-23T14:32:29.000077+0000","event_type":"stats","stats":{"uptime":17}}
+{"timestamp":"2019-05-23T14:32:36.000094+0000","event_type":"stats","stats":{"uptime":24}}
+{"timestamp":"2019-05-23T14:32:43.000099+0000","event_type":"stats","stats":{"uptime":31}}
+{"timestamp":"2019-05-23T14:32:50.000120+0000","event_type":"stats","stats":{"uptime":38}}
+{"timestamp":"2019-05-23T14:32:57.000122+0000","event_type":"stats","stats":{"uptime":45}}
+{"timestamp":"2019-05-23T14:33:04.000121+0000","event_type":"stats","stats":{"uptime":52}}
+{"timestamp":"2019-05-23T14:33:11.000084+0000","event_type":"stats","stats":{"uptime":59}}
+{"timestamp":"2019-05-23T14:33:18.000120+0000","event_type":"stats","stats":{"uptime":66}}
+{"timestamp":"2019-05-23T14:33:25.000098+0000","event_type":"stats","stats":{"uptime":73}}
+{"timestamp":"2019-05-23T14:33:32.000102+0000","event_type":"stats","stats":{"uptime":80}}
+{"timestamp":"2019-05-23T14:33:39.000120+0000","event_type":"stats","stats":{"uptime":87}}
+{"timestamp":"2019-05-23T14:33:46.000121+0000","event_type":"stats","stats":{"uptime":94}}
+{"timestamp":"2019-05-23T14:33:53.000080+0000","event_type":"stats","stats":{"uptime":101}}
+{"timestamp":"2019-05-23T14:34:00.000098+0000","event_type":"stats","stats":{"uptime":108}}
+{"timestamp":"2019-05-23T14:34:07.000102+0000","event_type":"stats","stats":{"uptime":115}}
+{"timestamp":"2019-05-23T14:34:14.000110+0000","event_type":"stats","stats":{"uptime":122}}
+{"timestamp":"2019-05-23T14:34:21.000075+0000","event_type":"stats","stats":{"uptime":129}}
+{"timestamp":"2019-05-23T14:34:28.000102+0000","event_type":"stats","stats":{"uptime":136}}
+{"timestamp":"2019-05-23T14:34:35.000096+0000","event_type":"stats","stats":{"uptime":143}}
+{"timestamp":"2019-05-23T14:34:42.000117+0000","event_type":"stats","stats":{"uptime":150}}
+{"timestamp":"2019-05-23T14:34:50.000121+0000","event_type":"stats","stats":{"uptime":158}}
+{"timestamp":"2019-05-23T14:34:57.000085+0000","event_type":"stats","stats":{"uptime":165}}
+{"timestamp":"2019-05-23T14:35:04.000101+0000","event_type":"stats","stats":{"uptime":172}}
+{"timestamp":"2019-05-23T14:35:11.000099+0000","event_type":"stats","stats":{"uptime":179}}
+{"timestamp":"2019-05-23T14:35:18.000102+0000","event_type":"stats","stats":{"uptime":186}}
+{"timestamp":"2019-05-23T14:35:25.000095+0000","event_type":"stats","stats":{"uptime":193}}
+{"timestamp":"2019-05-23T14:35:32.000102+0000","event_type":"stats","stats":{"uptime":200}}
+{"timestamp":"2019-05-23T14:35:39.000101+0000","event_type":"stats","stats":{"uptime":207}}
+{"timestamp":"2019-05-23T14:35:46.000080+0000","event_type":"stats","stats":{"uptime":214}}
+{"timestamp":"2019-05-23T14:35:53.000124+0000","event_type":"stats","stats":{"uptime":221}}
+{"timestamp":"2019-05-23T14:36:00.000099+0000","event_type":"stats","stats":{"uptime":228}}
+{"timestamp":"2019-05-23T14:36:02.077546+0000","event_type":"stats","stats":{"uptime":230}}
+{"timestamp":"2019-05-23T14:41:38.000117+0000","event_type":"stats","stats":{"uptime":8}}
+{"timestamp":"2019-05-23T14:41:45.000107+0000","event_type":"stats","stats":{"uptime":15}}
+{"timestamp":"2019-05-23T14:41:52.000078+0000","event_type":"stats","stats":{"uptime":22}}
+{"timestamp":"2019-05-23T14:41:59.000112+0000","event_type":"stats","stats":{"uptime":29}}
+{"timestamp":"2019-05-23T14:42:06.000074+0000","event_type":"stats","stats":{"uptime":36}}
+{"timestamp":"2019-05-23T14:42:14.000113+0000","event_type":"stats","stats":{"uptime":44}}
+{"timestamp":"2019-05-23T14:42:21.000102+0000","event_type":"stats","stats":{"uptime":51}}
+{"timestamp":"2019-05-23T14:42:28.000083+0000","event_type":"stats","stats":{"uptime":58}}
+{"timestamp":"2019-05-23T14:42:35.000097+0000","event_type":"stats","stats":{"uptime":65}}
+{"timestamp":"2019-05-23T14:42:42.000130+0000","event_type":"stats","stats":{"uptime":72}}
+{"timestamp":"2019-05-23T14:42:49.000111+0000","event_type":"stats","stats":{"uptime":79}}
+{"timestamp":"2019-05-23T14:42:56.000102+0000","event_type":"stats","stats":{"uptime":86}}
+{"timestamp":"2019-05-23T14:43:03.000095+0000","event_type":"stats","stats":{"uptime":93}}
+{"timestamp":"2019-05-23T14:43:10.000108+0000","event_type":"stats","stats":{"uptime":100}}
+{"timestamp":"2019-05-23T14:43:17.000080+0000","event_type":"stats","stats":{"uptime":107}}
+{"timestamp":"2019-05-23T14:43:24.000117+0000","event_type":"stats","stats":{"uptime":114}}
+{"timestamp":"2019-05-23T14:43:31.000094+0000","event_type":"stats","stats":{"uptime":121}}
+{"timestamp":"2019-05-23T14:43:38.000120+0000","event_type":"stats","stats":{"uptime":128}}
+{"timestamp":"2019-05-23T14:43:45.000095+0000","event_type":"stats","stats":{"uptime":135}}
+{"timestamp":"2019-05-23T14:43:52.000110+0000","event_type":"stats","stats":{"uptime":142}}
+{"timestamp":"2019-05-23T14:43:59.000118+0000","event_type":"stats","stats":{"uptime":149}}
+{"timestamp":"2019-05-23T14:44:06.000086+0000","event_type":"stats","stats":{"uptime":156}}
+{"timestamp":"2019-05-23T14:44:13.000098+0000","event_type":"stats","stats":{"uptime":163}}
+{"timestamp":"2019-05-23T14:44:20.000112+0000","event_type":"stats","stats":{"uptime":170}}
+{"timestamp":"2019-05-23T14:44:27.000096+0000","event_type":"stats","stats":{"uptime":177}}
+{"timestamp":"2019-05-23T14:44:34.000103+0000","event_type":"stats","stats":{"uptime":184}}
+{"timestamp":"2019-05-23T14:44:41.000103+0000","event_type":"stats","stats":{"uptime":191}}
+{"timestamp":"2019-05-23T14:44:48.000096+0000","event_type":"stats","stats":{"uptime":198}}
+{"timestamp":"2019-05-23T14:44:55.000101+0000","event_type":"stats","stats":{"uptime":205}}
+{"timestamp":"2019-05-23T14:45:02.000097+0000","event_type":"stats","stats":{"uptime":212}}
+{"timestamp":"2019-05-23T14:45:09.000102+0000","event_type":"stats","stats":{"uptime":219}}
+{"timestamp":"2019-05-23T14:45:16.000103+0000","event_type":"stats","stats":{"uptime":226}}
+{"timestamp":"2019-05-23T14:45:23.000104+0000","event_type":"stats","stats":{"uptime":233}}
+{"timestamp":"2019-05-23T14:45:30.000119+0000","event_type":"stats","stats":{"uptime":240}}
+{"timestamp":"2019-05-23T14:45:37.000101+0000","event_type":"stats","stats":{"uptime":247}}
+{"timestamp":"2019-05-23T14:45:44.000117+0000","event_type":"stats","stats":{"uptime":254}}
+{"timestamp":"2019-05-23T14:45:51.000100+0000","event_type":"stats","stats":{"uptime":261}}
+{"timestamp":"2019-05-23T14:45:58.000091+0000","event_type":"stats","stats":{"uptime":268}}
+{"timestamp":"2019-05-23T14:46:05.000121+0000","event_type":"stats","stats":{"uptime":275}}
+{"timestamp":"2019-05-23T14:46:12.000093+0000","event_type":"stats","stats":{"uptime":282}}
+{"timestamp":"2019-05-23T14:46:19.000118+0000","event_type":"stats","stats":{"uptime":289}}
+{"timestamp":"2019-05-23T14:46:26.000106+0000","event_type":"stats","stats":{"uptime":296}}
+{"timestamp":"2019-05-23T14:46:33.000102+0000","event_type":"stats","stats":{"uptime":303}}
+{"timestamp":"2019-05-23T14:46:40.000109+0000","event_type":"stats","stats":{"uptime":310}}
+{"timestamp":"2019-05-23T14:46:47.000117+0000","event_type":"stats","stats":{"uptime":317}}
+{"timestamp":"2019-05-23T14:46:54.000091+0000","event_type":"stats","stats":{"uptime":324}}
+{"timestamp":"2019-05-23T14:47:01.000117+0000","event_type":"stats","stats":{"uptime":331}}
+{"timestamp":"2019-05-23T14:47:08.000124+0000","event_type":"stats","stats":{"uptime":338}}
+{"timestamp":"2019-05-23T14:47:15.000123+0000","event_type":"stats","stats":{"uptime":345}}
+{"timestamp":"2019-05-23T14:47:22.000122+0000","event_type":"stats","stats":{"uptime":352}}
+{"timestamp":"2019-05-23T14:47:29.000112+0000","event_type":"stats","stats":{"uptime":359}}
+{"timestamp":"2019-05-23T14:47:36.000117+0000","event_type":"stats","stats":{"uptime":366}}
+{"timestamp":"2019-05-23T14:47:43.000116+0000","event_type":"stats","stats":{"uptime":373}}
+{"timestamp":"2019-05-23T14:47:50.000117+0000","event_type":"stats","stats":{"uptime":380}}
+{"timestamp":"2019-05-23T14:47:57.000110+0000","event_type":"stats","stats":{"uptime":387}}
+{"timestamp":"2019-05-23T14:48:04.000100+0000","event_type":"stats","stats":{"uptime":394}}
+{"timestamp":"2019-05-23T14:48:11.000102+0000","event_type":"stats","stats":{"uptime":401}}
+{"timestamp":"2019-05-23T14:48:18.000105+0000","event_type":"stats","stats":{"uptime":408}}
+{"timestamp":"2019-05-23T14:48:25.000123+0000","event_type":"stats","stats":{"uptime":415}}
+{"timestamp":"2019-05-23T14:48:32.000102+0000","event_type":"stats","stats":{"uptime":422}}
+{"timestamp":"2019-05-23T14:48:39.000100+0000","event_type":"stats","stats":{"uptime":429}}
+{"timestamp":"2019-05-23T14:48:46.000102+0000","event_type":"stats","stats":{"uptime":436}}
+{"timestamp":"2019-05-23T14:48:53.000099+0000","event_type":"stats","stats":{"uptime":443}}
+{"timestamp":"2019-05-23T14:49:00.000124+0000","event_type":"stats","stats":{"uptime":450}}
+{"timestamp":"2019-05-23T14:49:07.000080+0000","event_type":"stats","stats":{"uptime":457}}
+{"timestamp":"2019-05-23T14:49:15.000103+0000","event_type":"stats","stats":{"uptime":465}}
+{"timestamp":"2019-05-23T14:49:22.000110+0000","event_type":"stats","stats":{"uptime":472}}
+{"timestamp":"2019-05-23T14:49:29.000098+0000","event_type":"stats","stats":{"uptime":479}}
+{"timestamp":"2019-05-23T14:49:36.000086+0000","event_type":"stats","stats":{"uptime":486}}
+{"timestamp":"2019-05-23T14:49:43.000277+0000","event_type":"stats","stats":{"uptime":493}}
+{"timestamp":"2019-05-23T14:49:50.000094+0000","event_type":"stats","stats":{"uptime":500}}
+{"timestamp":"2019-05-23T14:49:57.000101+0000","event_type":"stats","stats":{"uptime":507}}
+{"timestamp":"2019-05-23T14:50:04.000105+0000","event_type":"stats","stats":{"uptime":514}}
+{"timestamp":"2019-05-23T14:50:11.000101+0000","event_type":"stats","stats":{"uptime":521}}
+{"timestamp":"2019-05-23T14:50:18.000114+0000","event_type":"stats","stats":{"uptime":528}}
+{"timestamp":"2019-05-23T14:50:25.000108+0000","event_type":"stats","stats":{"uptime":535}}
+{"timestamp":"2019-05-23T14:50:32.000101+0000","event_type":"stats","stats":{"uptime":542}}
+{"timestamp":"2019-05-23T14:50:39.000105+0000","event_type":"stats","stats":{"uptime":549}}
+{"timestamp":"2019-05-23T14:50:46.000105+0000","event_type":"stats","stats":{"uptime":556}}
+{"timestamp":"2019-05-23T14:50:53.000100+0000","event_type":"stats","stats":{"uptime":563}}
+{"timestamp":"2019-05-23T14:51:00.000100+0000","event_type":"stats","stats":{"uptime":570}}
+{"timestamp":"2019-05-23T14:51:07.000122+0000","event_type":"stats","stats":{"uptime":577}}
+{"timestamp":"2019-05-23T14:51:14.000112+0000","event_type":"stats","stats":{"uptime":584}}
+{"timestamp":"2019-05-23T14:51:21.000102+0000","event_type":"stats","stats":{"uptime":591}}
+{"timestamp":"2019-05-23T14:51:28.000106+0000","event_type":"stats","stats":{"uptime":598}}
+{"timestamp":"2019-05-23T14:51:35.000102+0000","event_type":"stats","stats":{"uptime":605}}
+{"timestamp":"2019-05-23T14:51:42.000101+0000","event_type":"stats","stats":{"uptime":612}}
+{"timestamp":"2019-05-23T14:51:49.000105+0000","event_type":"stats","stats":{"uptime":619}}
+{"timestamp":"2019-05-23T14:51:56.000100+0000","event_type":"stats","stats":{"uptime":626}}
+{"timestamp":"2019-05-23T14:52:03.000105+0000","event_type":"stats","stats":{"uptime":633}}
+{"timestamp":"2019-05-23T14:52:10.000097+0000","event_type":"stats","stats":{"uptime":640}}
+{"timestamp":"2019-05-23T14:52:17.000099+0000","event_type":"stats","stats":{"uptime":647}}
+{"timestamp":"2019-05-23T14:52:24.000104+0000","event_type":"stats","stats":{"uptime":654}}
+{"timestamp":"2019-05-23T14:52:31.000097+0000","event_type":"stats","stats":{"uptime":661}}
+{"timestamp":"2019-05-23T14:52:38.000121+0000","event_type":"stats","stats":{"uptime":668}}
+{"timestamp":"2019-05-23T14:52:46.000101+0000","event_type":"stats","stats":{"uptime":676}}
+{"timestamp":"2019-05-23T14:52:53.000118+0000","event_type":"stats","stats":{"uptime":683}}
+{"timestamp":"2019-05-23T14:53:00.000098+0000","event_type":"stats","stats":{"uptime":690}}
+{"timestamp":"2019-05-23T14:53:07.000114+0000","event_type":"stats","stats":{"uptime":697}}
+{"timestamp":"2019-05-23T14:53:14.000105+0000","event_type":"stats","stats":{"uptime":704}}
+{"timestamp":"2019-05-23T14:53:21.000097+0000","event_type":"stats","stats":{"uptime":711}}
+{"timestamp":"2019-05-23T14:53:28.000119+0000","event_type":"stats","stats":{"uptime":718}}
+{"timestamp":"2019-05-23T14:53:35.000102+0000","event_type":"stats","stats":{"uptime":725}}
+{"timestamp":"2019-05-23T14:53:42.000088+0000","event_type":"stats","stats":{"uptime":732}}
+{"timestamp":"2019-05-23T14:53:49.000101+0000","event_type":"stats","stats":{"uptime":739}}
+{"timestamp":"2019-05-23T14:53:56.000108+0000","event_type":"stats","stats":{"uptime":746}}
+{"timestamp":"2019-05-23T14:54:03.000105+0000","event_type":"stats","stats":{"uptime":753}}
+{"timestamp":"2019-05-23T14:54:10.000089+0000","event_type":"stats","stats":{"uptime":760}}
+{"timestamp":"2019-05-23T14:54:17.000129+0000","event_type":"stats","stats":{"uptime":767}}
+{"timestamp":"2019-05-23T14:54:24.000114+0000","event_type":"stats","stats":{"uptime":774}}
+{"timestamp":"2019-05-23T14:54:31.000100+0000","event_type":"stats","stats":{"uptime":781}}
+{"timestamp":"2019-05-23T14:54:38.000097+0000","event_type":"stats","stats":{"uptime":788}}
+{"timestamp":"2019-05-23T14:54:45.000118+0000","event_type":"stats","stats":{"uptime":795}}
+{"timestamp":"2019-05-23T14:54:52.000122+0000","event_type":"stats","stats":{"uptime":802}}
+{"timestamp":"2019-05-23T14:54:59.000108+0000","event_type":"stats","stats":{"uptime":809}}
+{"timestamp":"2019-05-23T14:55:06.000101+0000","event_type":"stats","stats":{"uptime":816}}
+{"timestamp":"2019-05-23T14:55:13.000148+0000","event_type":"stats","stats":{"uptime":823}}
+{"timestamp":"2019-05-23T14:55:20.000115+0000","event_type":"stats","stats":{"uptime":830}}
+{"timestamp":"2019-05-23T14:55:27.000118+0000","event_type":"stats","stats":{"uptime":837}}
+{"timestamp":"2019-05-23T14:55:34.000103+0000","event_type":"stats","stats":{"uptime":844}}
+{"timestamp":"2019-05-23T14:55:41.000101+0000","event_type":"stats","stats":{"uptime":851}}
+{"timestamp":"2019-05-23T14:55:48.000120+0000","event_type":"stats","stats":{"uptime":858}}
+{"timestamp":"2019-05-23T14:55:55.000118+0000","event_type":"stats","stats":{"uptime":865}}
+{"timestamp":"2019-05-23T14:56:02.000117+0000","event_type":"stats","stats":{"uptime":872}}
+{"timestamp":"2019-05-23T14:56:09.000114+0000","event_type":"stats","stats":{"uptime":879}}
+{"timestamp":"2019-05-23T14:56:16.000120+0000","event_type":"stats","stats":{"uptime":886}}
+{"timestamp":"2019-05-23T14:56:23.000100+0000","event_type":"stats","stats":{"uptime":893}}
+{"timestamp":"2019-05-23T14:56:30.000101+0000","event_type":"stats","stats":{"uptime":900}}
+{"timestamp":"2019-05-23T14:56:37.000102+0000","event_type":"stats","stats":{"uptime":907}}
+{"timestamp":"2019-05-23T14:56:44.000107+0000","event_type":"stats","stats":{"uptime":914}}
+{"timestamp":"2019-05-23T14:56:51.000082+0000","event_type":"stats","stats":{"uptime":921}}
+{"timestamp":"2019-05-23T14:56:58.000111+0000","event_type":"stats","stats":{"uptime":928}}
+{"timestamp":"2019-05-23T14:57:05.000116+0000","event_type":"stats","stats":{"uptime":935}}
+{"timestamp":"2019-05-23T14:57:12.000119+0000","event_type":"stats","stats":{"uptime":942}}
+{"timestamp":"2019-05-23T14:57:19.000112+0000","event_type":"stats","stats":{"uptime":949}}
+{"timestamp":"2019-05-23T14:57:26.000114+0000","event_type":"stats","stats":{"uptime":956}}
+{"timestamp":"2019-05-23T14:57:33.000100+0000","event_type":"stats","stats":{"uptime":963}}
+{"timestamp":"2019-05-23T14:57:40.000094+0000","event_type":"stats","stats":{"uptime":970}}
+{"timestamp":"2019-05-23T14:57:47.000114+0000","event_type":"stats","stats":{"uptime":977}}
+{"timestamp":"2019-05-23T14:57:54.000101+0000","event_type":"stats","stats":{"uptime":984}}
+{"timestamp":"2019-05-23T14:58:01.000104+0000","event_type":"stats","stats":{"uptime":991}}
+{"timestamp":"2019-05-23T14:58:08.000116+0000","event_type":"stats","stats":{"uptime":998}}
+{"timestamp":"2019-05-23T14:58:15.000106+0000","event_type":"stats","stats":{"uptime":1005}}
+{"timestamp":"2019-05-23T14:58:22.000118+0000","event_type":"stats","stats":{"uptime":1012}}
+{"timestamp":"2019-05-23T14:58:29.000117+0000","event_type":"stats","stats":{"uptime":1019}}
+{"timestamp":"2019-05-23T14:58:36.000119+0000","event_type":"stats","stats":{"uptime":1026}}
+{"timestamp":"2019-05-23T14:58:43.000088+0000","event_type":"stats","stats":{"uptime":1033}}
+{"timestamp":"2019-05-23T14:58:50.000112+0000","event_type":"stats","stats":{"uptime":1040}}
+{"timestamp":"2019-05-23T14:58:57.000119+0000","event_type":"stats","stats":{"uptime":1047}}
+{"timestamp":"2019-05-23T14:59:04.000115+0000","event_type":"stats","stats":{"uptime":1054}}
+{"timestamp":"2019-05-23T14:59:11.000115+0000","event_type":"stats","stats":{"uptime":1061}}
+{"timestamp":"2019-05-23T14:59:18.000115+0000","event_type":"stats","stats":{"uptime":1068}}
+{"timestamp":"2019-05-23T14:59:25.000116+0000","event_type":"stats","stats":{"uptime":1075}}
+{"timestamp":"2019-05-23T14:59:32.000114+0000","event_type":"stats","stats":{"uptime":1082}}
+{"timestamp":"2019-05-23T14:59:39.000120+0000","event_type":"stats","stats":{"uptime":1089}}
+{"timestamp":"2019-05-23T14:59:46.000117+0000","event_type":"stats","stats":{"uptime":1096}}
+{"timestamp":"2019-05-23T14:59:53.000110+0000","event_type":"stats","stats":{"uptime":1103}}
+{"timestamp":"2019-05-23T15:00:00.000099+0000","event_type":"stats","stats":{"uptime":1110}}
+{"timestamp":"2019-05-23T15:00:07.000101+0000","event_type":"stats","stats":{"uptime":1117}}
+{"timestamp":"2019-05-23T15:00:14.000104+0000","event_type":"stats","stats":{"uptime":1124}}
+{"timestamp":"2019-05-23T15:00:21.000110+0000","event_type":"stats","stats":{"uptime":1131}}
+{"timestamp":"2019-05-23T15:00:28.000105+0000","event_type":"stats","stats":{"uptime":1138}}
+{"timestamp":"2019-05-23T15:00:35.000097+0000","event_type":"stats","stats":{"uptime":1145}}
+{"timestamp":"2019-05-23T15:00:42.000097+0000","event_type":"stats","stats":{"uptime":1152}}
+{"timestamp":"2019-05-23T15:00:49.000118+0000","event_type":"stats","stats":{"uptime":1159}}
+{"timestamp":"2019-05-23T15:00:56.000106+0000","event_type":"stats","stats":{"uptime":1166}}
+{"timestamp":"2019-05-23T15:01:03.000118+0000","event_type":"stats","stats":{"uptime":1173}}
+{"timestamp":"2019-05-23T15:01:10.000103+0000","event_type":"stats","stats":{"uptime":1180}}
+{"timestamp":"2019-05-23T15:01:17.000102+0000","event_type":"stats","stats":{"uptime":1187}}
+{"timestamp":"2019-05-23T15:01:24.000105+0000","event_type":"stats","stats":{"uptime":1194}}
+{"timestamp":"2019-05-23T15:01:31.000103+0000","event_type":"stats","stats":{"uptime":1201}}
+{"timestamp":"2019-05-23T15:01:38.000101+0000","event_type":"stats","stats":{"uptime":1208}}
+{"timestamp":"2019-05-23T15:01:45.000104+0000","event_type":"stats","stats":{"uptime":1215}}
+{"timestamp":"2019-05-23T15:01:52.000102+0000","event_type":"stats","stats":{"uptime":1222}}
+{"timestamp":"2019-05-23T15:01:59.000092+0000","event_type":"stats","stats":{"uptime":1229}}
+{"timestamp":"2019-05-23T15:02:06.000100+0000","event_type":"stats","stats":{"uptime":1236}}
+{"timestamp":"2019-05-23T15:02:13.000099+0000","event_type":"stats","stats":{"uptime":1243}}
+{"timestamp":"2019-05-23T15:02:20.000097+0000","event_type":"stats","stats":{"uptime":1250}}
+{"timestamp":"2019-05-23T15:02:27.000097+0000","event_type":"stats","stats":{"uptime":1257}}
+{"timestamp":"2019-05-23T15:02:34.000095+0000","event_type":"stats","stats":{"uptime":1264}}
+{"timestamp":"2019-05-23T15:02:41.000095+0000","event_type":"stats","stats":{"uptime":1271}}
+{"timestamp":"2019-05-23T15:02:48.000097+0000","event_type":"stats","stats":{"uptime":1278}}
+{"timestamp":"2019-05-23T15:02:55.000092+0000","event_type":"stats","stats":{"uptime":1285}}
+{"timestamp":"2019-05-23T15:03:02.000088+0000","event_type":"stats","stats":{"uptime":1292}}
+{"timestamp":"2019-05-23T15:03:09.000093+0000","event_type":"stats","stats":{"uptime":1299}}
+{"timestamp":"2019-05-23T15:03:16.000088+0000","event_type":"stats","stats":{"uptime":1306}}
+{"timestamp":"2019-05-23T15:03:23.000089+0000","event_type":"stats","stats":{"uptime":1313}}
+{"timestamp":"2019-05-23T15:03:30.000096+0000","event_type":"stats","stats":{"uptime":1320}}
+{"timestamp":"2019-05-23T15:03:37.000118+0000","event_type":"stats","stats":{"uptime":1327}}
+{"timestamp":"2019-05-23T15:03:44.000114+0000","event_type":"stats","stats":{"uptime":1334}}
+{"timestamp":"2019-05-23T15:03:51.000110+0000","event_type":"stats","stats":{"uptime":1341}}
+{"timestamp":"2019-05-23T15:03:58.000115+0000","event_type":"stats","stats":{"uptime":1348}}
+{"timestamp":"2019-05-23T15:04:05.000121+0000","event_type":"stats","stats":{"uptime":1355}}
+{"timestamp":"2019-05-23T15:04:12.000100+0000","event_type":"stats","stats":{"uptime":1362}}
+{"timestamp":"2019-05-23T15:04:19.000117+0000","event_type":"stats","stats":{"uptime":1369}}
+{"timestamp":"2019-05-23T15:04:26.000119+0000","event_type":"stats","stats":{"uptime":1376}}
+{"timestamp":"2019-05-23T15:04:33.000190+0000","event_type":"stats","stats":{"uptime":1383}}
+{"timestamp":"2019-05-23T15:04:40.000100+0000","event_type":"stats","stats":{"uptime":1390}}
+{"timestamp":"2019-05-23T15:04:47.000122+0000","event_type":"stats","stats":{"uptime":1397}}
+{"timestamp":"2019-05-23T15:04:54.000121+0000","event_type":"stats","stats":{"uptime":1404}}
+{"timestamp":"2019-05-23T15:05:01.000114+0000","event_type":"stats","stats":{"uptime":1411}}
+{"timestamp":"2019-05-23T15:05:08.000100+0000","event_type":"stats","stats":{"uptime":1418}}
+{"timestamp":"2019-05-23T15:05:15.000104+0000","event_type":"stats","stats":{"uptime":1425}}
+{"timestamp":"2019-05-23T15:05:22.000111+0000","event_type":"stats","stats":{"uptime":1432}}
+{"timestamp":"2019-05-23T15:05:29.000089+0000","event_type":"stats","stats":{"uptime":1439}}
+{"timestamp":"2019-05-23T15:05:36.000099+0000","event_type":"stats","stats":{"uptime":1446}}
+{"timestamp":"2019-05-23T15:05:43.000180+0000","event_type":"stats","stats":{"uptime":1453}}
+{"timestamp":"2019-05-23T15:05:50.000101+0000","event_type":"stats","stats":{"uptime":1460}}
+{"timestamp":"2019-05-23T15:05:57.000120+0000","event_type":"stats","stats":{"uptime":1467}}
+{"timestamp":"2019-05-23T15:06:04.000112+0000","event_type":"stats","stats":{"uptime":1474}}
+{"timestamp":"2019-05-23T15:06:11.000102+0000","event_type":"stats","stats":{"uptime":1481}}
+{"timestamp":"2019-05-23T15:06:18.000120+0000","event_type":"stats","stats":{"uptime":1488}}
+{"timestamp":"2019-05-23T15:06:25.000105+0000","event_type":"stats","stats":{"uptime":1495}}
+{"timestamp":"2019-05-23T15:06:32.000122+0000","event_type":"stats","stats":{"uptime":1502}}
+{"timestamp":"2019-05-23T15:06:39.000120+0000","event_type":"stats","stats":{"uptime":1509}}
+{"timestamp":"2019-05-23T15:06:46.000117+0000","event_type":"stats","stats":{"uptime":1516}}
+{"timestamp":"2019-05-23T15:06:53.000154+0000","event_type":"stats","stats":{"uptime":1523}}
+{"timestamp":"2019-05-23T15:07:00.000095+0000","event_type":"stats","stats":{"uptime":1530}}
+{"timestamp":"2019-05-23T15:07:07.000107+0000","event_type":"stats","stats":{"uptime":1537}}
+{"timestamp":"2019-05-23T15:07:14.000095+0000","event_type":"stats","stats":{"uptime":1544}}
+{"timestamp":"2019-05-23T15:07:21.000114+0000","event_type":"stats","stats":{"uptime":1551}}
+{"timestamp":"2019-05-23T15:07:28.000102+0000","event_type":"stats","stats":{"uptime":1558}}
+{"timestamp":"2019-05-23T15:07:35.000099+0000","event_type":"stats","stats":{"uptime":1565}}
+{"timestamp":"2019-05-23T15:07:42.000107+0000","event_type":"stats","stats":{"uptime":1572}}
+{"timestamp":"2019-05-23T15:07:49.000104+0000","event_type":"stats","stats":{"uptime":1579}}
+{"timestamp":"2019-05-23T15:07:56.000100+0000","event_type":"stats","stats":{"uptime":1586}}
+{"timestamp":"2019-05-23T15:08:03.000106+0000","event_type":"stats","stats":{"uptime":1593}}
+{"timestamp":"2019-05-23T15:08:10.000120+0000","event_type":"stats","stats":{"uptime":1600}}
+{"timestamp":"2019-05-23T15:08:17.000145+0000","event_type":"stats","stats":{"uptime":1607}}
+{"timestamp":"2019-05-23T15:08:24.000126+0000","event_type":"stats","stats":{"uptime":1614}}
+{"timestamp":"2019-05-23T15:08:31.000116+0000","event_type":"stats","stats":{"uptime":1621}}
+{"timestamp":"2019-05-23T15:08:38.000114+0000","event_type":"stats","stats":{"uptime":1628}}
+{"timestamp":"2019-05-23T15:08:45.000115+0000","event_type":"stats","stats":{"uptime":1635}}
+{"timestamp":"2019-05-23T15:08:52.000110+0000","event_type":"stats","stats":{"uptime":1642}}
+{"timestamp":"2019-05-23T15:08:59.000099+0000","event_type":"stats","stats":{"uptime":1649}}
+{"timestamp":"2019-05-23T15:09:06.000113+0000","event_type":"stats","stats":{"uptime":1656}}
+{"timestamp":"2019-05-23T15:09:13.000116+0000","event_type":"stats","stats":{"uptime":1663}}
+{"timestamp":"2019-05-23T15:09:20.000111+0000","event_type":"stats","stats":{"uptime":1670}}
+{"timestamp":"2019-05-23T15:09:27.000117+0000","event_type":"stats","stats":{"uptime":1677}}
+{"timestamp":"2019-05-23T15:09:34.000114+0000","event_type":"stats","stats":{"uptime":1684}}
+{"timestamp":"2019-05-23T15:09:41.000117+0000","event_type":"stats","stats":{"uptime":1691}}
+{"timestamp":"2019-05-23T15:09:48.000116+0000","event_type":"stats","stats":{"uptime":1698}}
+{"timestamp":"2019-05-23T15:09:55.000111+0000","event_type":"stats","stats":{"uptime":1705}}
+{"timestamp":"2019-05-23T15:10:02.000111+0000","event_type":"stats","stats":{"uptime":1712}}
+{"timestamp":"2019-05-23T15:10:09.000120+0000","event_type":"stats","stats":{"uptime":1719}}
+{"timestamp":"2019-05-23T15:10:16.000098+0000","event_type":"stats","stats":{"uptime":1726}}
+{"timestamp":"2019-05-23T15:10:23.000106+0000","event_type":"stats","stats":{"uptime":1733}}
+{"timestamp":"2019-05-23T15:10:30.000106+0000","event_type":"stats","stats":{"uptime":1740}}
+{"timestamp":"2019-05-23T15:10:37.000105+0000","event_type":"stats","stats":{"uptime":1747}}
+{"timestamp":"2019-05-23T15:10:44.000115+0000","event_type":"stats","stats":{"uptime":1754}}
+{"timestamp":"2019-05-23T15:10:52.000115+0000","event_type":"stats","stats":{"uptime":1762}}
+{"timestamp":"2019-05-23T15:10:59.000117+0000","event_type":"stats","stats":{"uptime":1769}}
+{"timestamp":"2019-05-23T15:11:06.000120+0000","event_type":"stats","stats":{"uptime":1776}}
+{"timestamp":"2019-05-23T15:11:13.000116+0000","event_type":"stats","stats":{"uptime":1783}}
+{"timestamp":"2019-05-23T15:11:20.000119+0000","event_type":"stats","stats":{"uptime":1790}}
+{"timestamp":"2019-05-23T15:11:27.000112+0000","event_type":"stats","stats":{"uptime":1797}}
+{"timestamp":"2019-05-23T15:11:34.000119+0000","event_type":"stats","stats":{"uptime":1804}}
+{"timestamp":"2019-05-23T15:11:41.000098+0000","event_type":"stats","stats":{"uptime":1811}}
+{"timestamp":"2019-05-23T15:11:48.000117+0000","event_type":"stats","stats":{"uptime":1818}}
+{"timestamp":"2019-05-23T15:11:55.000114+0000","event_type":"stats","stats":{"uptime":1825}}
+{"timestamp":"2019-05-23T15:12:02.000115+0000","event_type":"stats","stats":{"uptime":1832}}
+{"timestamp":"2019-05-23T15:12:09.000094+0000","event_type":"stats","stats":{"uptime":1839}}
+{"timestamp":"2019-05-23T15:12:16.000101+0000","event_type":"stats","stats":{"uptime":1846}}
+{"timestamp":"2019-05-23T15:12:23.000100+0000","event_type":"stats","stats":{"uptime":1853}}
+{"timestamp":"2019-05-23T15:12:30.000107+0000","event_type":"stats","stats":{"uptime":1860}}
+{"timestamp":"2019-05-23T15:12:37.000101+0000","event_type":"stats","stats":{"uptime":1867}}
+{"timestamp":"2019-05-23T15:12:44.000101+0000","event_type":"stats","stats":{"uptime":1874}}
+{"timestamp":"2019-05-23T15:12:51.000101+0000","event_type":"stats","stats":{"uptime":1881}}
+{"timestamp":"2019-05-23T15:12:56.792781+0000","event_type":"stats","stats":{"uptime":1886}}

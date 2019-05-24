@@ -1,0 +1,4 @@
+05/17/2019-14:39:38.610328  [**] [1:0:0] Ping correcto [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.1.1:8 -> 192.168.1.80:0
+05/17/2019-14:39:39.616239  [**] [1:0:0] Ping correcto [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.1.1:8 -> 192.168.1.80:0
+05/17/2019-14:39:40.640228  [**] [1:0:0] Ping correcto [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.1.1:8 -> 192.168.1.80:0
+05/17/2019-14:39:41.664285  [**] [1:0:0] Ping correcto [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.1.1:8 -> 192.168.1.80:0

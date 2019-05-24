@@ -1,0 +1,173 @@
+#sudo sysctl -w vm.max_map_count=262144
+
+version: '3.6'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.0
+    container_name: elasticsearch_es3
+    environment:
+      - node.name=nodo01
+      - cluster.name=TFM-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      nproc: 262144
+      memlock:
+        soft: -1
+        hard: -1
+    cap_add:
+      - ALL
+    privileged: true
+    deploy:
+      mode: global
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+    volumes:
+      - esdata3:/usr/share/elasticsearch/data
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.200
+    ports:
+      - 9200:9200
+      - 9300:9300
+  # elasticsearch2:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:6.5.0
+  #   container_name: elasticsearch2
+  #   environment:
+  #     - node.name=nodo02
+  #     - cluster.name=TFM-cluster
+  #     - bootstrap.memory_lock=true
+  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+  #     - "discovery.zen.ping.unicast.hosts=elasticsearch"
+  #   ulimits:
+  #     nproc: 262144
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   cap_add:
+  #     - ALL
+  #   privileged: true
+  #   deploy:
+  #     mode: global
+  #     restart_policy:
+  #       condition: on-failure
+  #       delay: 5s
+  #       max_attempts: 3
+  #       window: 120s
+  #   volumes:
+  #     - esdata2:/usr/share/elasticsearch/data
+  #   networks: 
+  #    TFM_lab_network:
+  #       ipv4_address: 192.168.1.201
+  # elasticsearch3:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:6.5.0
+  #   container_name: elasticsearch3
+  #   environment:
+  #     - node.name=nodo03
+  #     - cluster.name=TFM-cluster
+  #     - bootstrap.memory_lock=true
+  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+  #     - "discovery.zen.ping.unicast.hosts=elasticsearch"
+  #   ulimits:
+  #     nproc: 262144
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   cap_add:
+  #     - ALL
+  #   privileged: true
+  #   deploy:
+  #     mode: global
+  #     restart_policy:
+  #       condition: on-failure
+  #       delay: 5s
+  #       max_attempts: 3
+  #       window: 120s
+  #   volumes:
+  #     - esdata3:/usr/share/elasticsearch/data
+  #   networks: 
+  #    TFM_lab_network:
+  #       ipv4_address: 192.168.1.202
+  #       #ipv4_address: 172.39.0.6
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:6.5.0
+    container_name: kibana_es3
+    environment:
+      SERVER_NAME: localhost
+      ELASTICSEARCH_URL: http://elasticsearch:9200/
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.203
+    ports:
+      - 5601:5601
+    ulimits:
+      nproc: 262144
+      memlock:
+        soft: -1
+        hard: -1
+    cap_add:
+      - ALL
+    deploy:
+      mode: global
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:6.5.0
+    container_name: logstash_es3
+    # Provide a simple pipeline configuration for Logstash with a bind-mounted file.
+    volumes:
+     # - /home/mario/Documentos/TFM/config/logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - ${PWD}/logstash/config:/usr/share/logstash/config
+      - ${PWD}/logstash/pipeline:/usr/share/logstash/pipeline
+     # - /home/mario/Documentos/TFM/config/logstash/GeoLiteCity.dat:/usr/share/logstash/GeoLiteCity.dat
+    ports: 
+      - 1514:1514/udp
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.204
+    depends_on: ['elasticsearch']
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_es3
+    ports:
+        - 8080:80
+    volumes:
+        - ${PWD}/nginx-config/:/etc/nginx/conf.d/
+    command: /bin/bash -c "nginx -g 'daemon off;'"
+    ulimits:
+      nproc: 262144
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.205
+
+  kali:
+    image: kalilinux/kali-linux-docker
+    container_name: kali_docker_es3
+    command: tail -F anything
+    networks:
+      TFM_lab_network:
+        ipv4_address: 192.168.1.206
+
+volumes:
+  #esdata1:
+  #esdata2:
+  esdata3:
+
+networks:
+   TFM_lab_network:
+      name: TFM_3
+      driver: bridge
+      ipam:
+        driver: default
+        config:
+        - subnet: "192.168.1.0/24"
+

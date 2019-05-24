@@ -1,0 +1,125 @@
+#sudo sysctl -w vm.max_map_count=262144
+
+version: '3.6'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.0
+    container_name: elasticsearch_es2
+    environment:
+      - node.name=nodo01
+      - cluster.name=TFM-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      nproc: 262144
+      memlock:
+        soft: -1
+        hard: -1
+    cap_add:
+      - ALL
+    privileged: true
+    deploy:
+      mode: global
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+    volumes:
+      - esdata2:/usr/share/elasticsearch/data
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.10
+    ports:
+      - 9200:9200
+      - 9300:9300
+ 
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:6.5.0
+    container_name: kibana_es2
+    environment:
+      SERVER_NAME: localhost
+      ELASTICSEARCH_URL: http://elasticsearch:9200/
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.30
+    ports:
+      - 5601:5601
+    ulimits:
+      nproc: 262144
+      memlock:
+        soft: -1
+        hard: -1
+    cap_add:
+      - ALL
+    deploy:
+      mode: global
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:6.5.0
+    container_name: logstash_es2
+    volumes:
+      - ${PWD}/logstash/config:/usr/share/logstash/config
+      - ${PWD}/logstash/pipeline:/usr/share/logstash/pipeline
+    ports: 
+      - 1514:1514/udp
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.20
+    depends_on: ['elasticsearch']
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_es2
+    ports:
+        - 8080:80
+    volumes:
+        - ${PWD}/nginx-config/:/etc/nginx/conf.d/
+    command: /bin/bash -c "nginx -g 'daemon off;'"
+    ulimits:
+      nproc: 262144
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.35
+
+  kali:
+    image: kalilinux/kali-linux-docker
+    container_name: kali_docker_es2
+    command: tail -F anything
+    networks:
+      TFM_lab_network:
+        ipv4_address: 192.168.1.60
+
+  modbus_master:
+    image: msanz741/modbus_master
+    container_name: modbus_master
+    command: tail -F anything
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.70
+
+  modbus_slave:
+    image: msanz741/modbus_slave
+    container_name: modbus_slave
+    command: tail -F anything
+    networks: 
+      TFM_lab_network:
+        ipv4_address: 192.168.1.80
+
+volumes:
+  esdata2:
+
+networks:
+   TFM_lab_network:
+      name: TFM_2
+      driver: bridge
+      ipam:
+        driver: default
+        config:
+        - subnet: "192.168.1.0/24"
+

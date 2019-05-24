@@ -1,0 +1,61 @@
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 unknown ASDU type detected"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x16-\x1D\x29-\x2C\x34-\x39\x41-\x45]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41077; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 double command issued"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x2e\x3b]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41076; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 counter interrogation command"; flow:established; content:"|68|"; content:"|65|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41075; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 clock sync command"; flow:established; content:"|68|"; content:"|67|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41074; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 bitstring of 32 bits"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x33\x40\x07\x21]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41073; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Test command with time tag"; flow:established; content:"|68|"; content:"|6B|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41072; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Step point information"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x05\x20]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41071; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Single point information"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x14\x01\x1e]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41070; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Single command"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x2d\x3a]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41069; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Set point command"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x30\x31\x32\x3d\x3e\x3f]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41068; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Rest process command"; flow:established; content:"|68|"; content:"|69|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41067; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Regulating step command"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x2f\x3c]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41066; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Read command"; flow:established; content:"|68|"; content:"|66|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41065; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Query Log"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x7a\x7f]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41064; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Parameter value"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x71\x6e\x6f\x70]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41063; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Packed start events"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x26\x27\x28]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41062; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Measured value"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x09\x0b\x0d\x15\x22\x23\x24]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41061; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 List directory"; flow:established; content:"|68|"; content:"|7E|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41060; rev:4;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Last section"; flow:established; content:"|68|"; content:"|7B|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41059; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Interrogation command"; flow:established; content:"|68|"; content:"|64|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41058; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Integrated totals"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x0f\x25]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41057; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 File ready"; flow:established; content:"|68|"; content:"|78|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41056; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 End of initialization"; flow:established; content:"|68|"; content:"|46|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41055; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Double point information"; flow:established; content:"|68|"; pcre:"/\x68.{5}[\x03\x1f]/"; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41054; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 Ack file"; flow:established; content:"|68|"; content:"|7C|"; within:1; distance:5; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41053; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 TESTFR CON"; flow:established; content:"|68|"; depth:1; content:"|83|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41052; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 TESTFR ACT"; flow:established; content:"|68|"; depth:1; content:"|43|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41051; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 STOPDT CON"; flow:established; content:"|68|"; depth:1; content:"|23|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41050; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 STOPDT ACT"; flow:established; content:"|68|"; depth:1; content:"|13|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41049; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 STARTDT CON"; flow:established; content:"|68|"; depth:1; content:"|0B|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41048; rev:2;)
+
+alert tcp $HOME_NET [1024:] <> $HOME_NET 2404 (msg:"PROTOCOL-SCADA IEC 104 STARTDT ACT"; flow:established; content:"|68|"; depth:1; content:"|07|"; within:1; distance:1; reference:url,blog.snort.org/2016/12/iec60870-5-104-protocol-detection-rules.html; classtype:protocol-command-decode; sid:41047; rev:2;)

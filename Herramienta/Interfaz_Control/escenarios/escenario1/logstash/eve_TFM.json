@@ -1,0 +1,6 @@
+{"timestamp":"2019-03-22T11:31:20.192396+0000","in_iface":"br-a0186ff8ea73","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.101","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-03-22T11:31:21.195622+0000","in_iface":"br-a0186ff8ea73","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.101","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-03-22T11:31:22.196752+0000","in_iface":"br-a0186ff8ea73","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.101","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+{"timestamp":"2019-03-22T11:31:23.227637+0000","in_iface":"br-a0186ff8ea73","event_type":"alert","src_ip":"192.168.1.1","dest_ip":"192.168.1.101","proto":"ICMP","icmp_type":8,"icmp_code":0,"alert":{"action":"allowed","gid":1,"signature_id":0,"rev":0,"signature":"Ping correcto","category":"","severity":3}}
+
+
