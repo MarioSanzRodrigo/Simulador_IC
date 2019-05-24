@@ -60,7 +60,7 @@ Escenario 4 [Escenario Personalizable]
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario1.png)
  
-** Visual del escenario 1 a traves del gestor de contenedores **
+**Visual del escenario 1 a traves del gestor de contenedores**
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario1.png)
 
@@ -111,7 +111,7 @@ Simulador IEC104_Server
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/Escenario2.png)
  
-** Visual del escenario 2 a traves del gestor de contenedores **
+**Visual del escenario 2 a traves del gestor de contenedores**
 
  ![alt text](https://github.com/MarioSanzRodrigo/Simulador_IC/blob/master/portainer_escenario2.png)
 
