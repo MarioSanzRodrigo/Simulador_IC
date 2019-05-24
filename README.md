@@ -11,7 +11,7 @@
 
 Este desarrollo viene motivado por la importancia de dotar de seguridad a las infraestructuras críticas de un país, muchas de ellas basadas en sistemas **SCADA (Supervisory Control and Data Acquisition)**, los cuales no se desarrollaron originalmente bajo la perspectiva de la ciberseguridad.
 
-Por ello en este TFM se propone primeramente un análisis exhaustivo, desde la perspectiva de la ciberseguridad, de los protocolos industriales más comunes en este tipo de escenarios, los cuales engloban los protocolos definidos por la normal internacional **IEC 60870-5** en sus variantes 101 y 104, **DNP3 Protocol** (Distributed Network Protocol), **ModBus** y LoRa y LoRaWan.
+Por ello en este TFM se propone primeramente un análisis exhaustivo, desde la perspectiva de la ciberseguridad, de los protocolos industriales más comunes en este tipo de escenarios, los cuales engloban los protocolos definidos por la normal internacional **IEC 60870-5** en sus variantes 101 y 104, **DNP3 Protocol** (Distributed Network Protocol) y **ModBus**.
 
 Seguido de un estudio de sistemas **IDS (Intrusion Detection System)** como son SNORT o Suricata, con el fin de aplicar y crear reglas que permitan la detección de anomalías en los protocolos anteriormente mencionados.
 
