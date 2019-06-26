@@ -78,7 +78,7 @@ unix-command:
 
 # global stats configuration
 stats:
-  enabled: yes
+  enabled: no
   # The interval field (in seconds) controls at what interval
   # the loggers are invoked.
   interval: 8
@@ -1134,8 +1134,8 @@ ipfw:
 default-rule-path: /etc/suricata/rules
 rule-files:
 
-  - TFM_iec104.rules
-#  - TFM_modbus.rules
+#  - TFM_iec104.rules
+  - TFM_modbus.rules
 #  - TFM_dnp3.rules
 
 #  - botcc.rules
@@ -1207,6 +1207,14 @@ vars:
 
     IEC104_SERVER: "192.168.1.140"
 
+    MODBUS_CLIENT: "192.168.1.80"
+
+    MODBUS_SERVER: "192.168.1.70"
+
+    DNP3_SERVER: "$HOME_NET"
+
+    DNP3_CLIENT: "$HOME_NET"
+
     HOME_NET: "[192.168.1.0/24]"
 
     EXTERNAL_NET: "!$HOME_NET"
@@ -1222,14 +1230,6 @@ vars:
     TELNET_SERVERS: "$HOME_NET"
 
     AIM_SERVERS: "$EXTERNAL_NET"
-
-    DNP3_SERVER: "$HOME_NET"
-
-    DNP3_CLIENT: "$HOME_NET"
-
-    MODBUS_CLIENT: "$HOME_NET"
-
-    MODBUS_SERVER: "$HOME_NET"
 
     ENIP_CLIENT: "$HOME_NET"
 
