@@ -1133,6 +1133,11 @@ ipfw:
 # if not set, it will look at the current working dir
 default-rule-path: /etc/suricata/rules
 rule-files:
+
+  - TFM_iec104.rules
+#  - TFM_modbus.rules
+#  - TFM_dnp3.rules
+
 #  - botcc.rules
 #  - ciarmy.rules
 #  - compromised.rules
@@ -1148,10 +1153,10 @@ rule-files:
 #  - emerging-ftp.rules
 #  - emerging-games.rules
 #  - emerging-icmp_info.rules
-  - emerging-icmp.rules
-  - iec.rules
-  - dnp3.rules
-  - modbus-events.rules  # available in suricata sources under rules dir
+#  - emerging-icmp.rules
+#  - iec.rules
+#  - dnp3.rules
+#  - modbus-events.rules  # available in suricata sources under rules dir
 
 #  - emerging-imap.rules
 #  - emerging-inappropriate.rules
@@ -1197,6 +1202,10 @@ vars:
   # Holds the address group vars that would be passed in a Signature.
   # These would be retrieved during the Signature address parsing stage.
   address-groups:
+
+    IEC104_CLIENT: "192.168.1.141"
+
+    IEC104_SERVER: "192.168.1.140"
 
     HOME_NET: "[192.168.1.0/24]"
 
