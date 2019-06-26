@@ -1135,8 +1135,8 @@ default-rule-path: /etc/suricata/rules
 rule-files:
 
 #  - TFM_iec104.rules
-  - TFM_modbus.rules
-#  - TFM_dnp3.rules
+#  - TFM_modbus.rules
+  - TFM_dnp3.rules
 
 #  - botcc.rules
 #  - ciarmy.rules
@@ -1211,9 +1211,9 @@ vars:
 
     MODBUS_SERVER: "192.168.1.70"
 
-    DNP3_SERVER: "$HOME_NET"
+    DNP3_SERVER: "192.168.1.102"
 
-    DNP3_CLIENT: "$HOME_NET"
+    DNP3_CLIENT: "192.168.1.101"
 
     HOME_NET: "[192.168.1.0/24]"
 
