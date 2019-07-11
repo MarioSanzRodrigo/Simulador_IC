@@ -45,6 +45,9 @@ De forma complementaria al estudio de los elementos mencionados anteriormente, s
 
 - [Escenario 4 [Personalizable]](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Escenario-4.-Personalizable). Simulación totalmente personalizable por el usuario, permitiendo elegir entre honeynets, protocolos industriales, máquinas linux, etc. 
 
+- [Lista de elementos del escenario 4](https://github.com/MarioSanzRodrigo/Simulador_IC/wiki/Elementos-escenario-4)
+
+
 ## Autor
 
 Este proyecto ha sido desarrollado por [Mario Sanz Rodrigo](https://www.linkedin.com/in/mario-sanz-rodrigo-8757a2a0/) como resultado del Trabajo de Fin de Master de Ciberseguridad en la Universidad Politécnica de Madrid.
